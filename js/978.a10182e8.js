@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkachastory"]=self["webpackChunkachastory"]||[]).push([[978],{978:function(n,u,t){t.r(u),t.d(u,{default:function(){return f}});var r=function(){var n=this,u=n._self._c;return u("div",[n._v("ansy直播帖(mygo直播最高楼)完全索引！直播楼太高了可以来这儿做跳转。")])},s=[],a={},e=a,l=t(1656),c=(0,l.A)(e,r,s,!1,null,null,null),f=c.exports}}]);
+//# sourceMappingURL=978.a10182e8.js.map

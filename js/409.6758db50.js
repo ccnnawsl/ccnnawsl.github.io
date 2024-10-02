@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkachastory"]=self["webpackChunkachastory"]||[]).push([[409],{7409:function(n,u,t){t.r(u),t.d(u,{default:function(){return f}});var r=function(){var n=this,u=n._self._c;return u("div",[n._v("[直播氵]朋友说看mygo一定要开个直播贴？")])},e=[],l={},s=l,a=t(1656),c=(0,a.A)(s,r,e,!1,null,null,null),f=c.exports}}]);
+//# sourceMappingURL=409.6758db50.js.map
