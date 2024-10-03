@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkachastory"]=self["webpackChunkachastory"]||[]).push([[235],{2235:function(t,n,u){u.r(n),u.d(n,{default:function(){return i}});var e=function(){var t=this;t._self._c;return t._m(0)},s=[function(){var t=this,n=t._self._c;return n("div",{staticClass:"main"},[n("p",[t._v("本站为我的练手之作")]),n("p",[t._v("使用了 Vue2 + Element UI 的静态页面")]),n("p",[t._v("部署在 Github Pages 上，并通过 DNS 关联了本域名")])])}],a={},r=a,l=u(1656),c=(0,l.A)(r,e,s,!1,null,null,null),i=c.exports}}]);
+//# sourceMappingURL=235.45ce0fcc.js.map

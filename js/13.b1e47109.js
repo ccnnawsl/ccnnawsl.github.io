@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkachastory"]=self["webpackChunkachastory"]||[]).push([[13],{3013:function(n,t,u){u.r(t),u.d(t,{default:function(){return f}});var r=function(){var n=this,t=n._self._c;return t("div",[n._v("other")])},e=[],l={},s=l,a=u(1656),c=(0,a.A)(s,r,e,!1,null,null,null),f=c.exports}}]);
-//# sourceMappingURL=13.b1e47109.js.map
