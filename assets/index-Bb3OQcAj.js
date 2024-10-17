@@ -1,1 +1,0 @@
-import{B as r}from"./plugin-vue_export-helper-Cd_d_7dB.js";import{c as s,u as c,E as a,z as i}from"./index-BJ5h8cr7.js";const t={prefix:Math.floor(Math.random()*1e4),current:0},u=Symbol("elIdInjection"),d=()=>a()?i(u,t):t,p=n=>{const e=d(),o=r();return s(()=>c(n)||`${o.value}-id-${e.prefix}-${e.current++}`)};export{d as a,p as u};
