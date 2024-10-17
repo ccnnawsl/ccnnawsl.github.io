@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkachastory"]=self["webpackChunkachastory"]||[]).push([[226],{8226:function(t,e,n){n.r(e),n.d(e,{default:function(){return i}});var r=function(){var t=this,e=t._self._c;return e("router-view")},u=[],s={created(){this.$notify.warning({title:"提示",message:"部分楼层为回复，鼠标悬停可显示被回复的内容"})}},a=s,l=n(1656),c=(0,l.A)(a,r,u,!1,null,null,null),i=c.exports}}]);
-//# sourceMappingURL=226.c3653600.js.map

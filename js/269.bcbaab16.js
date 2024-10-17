@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkachastory"]=self["webpackChunkachastory"]||[]).push([[269],{4269:function(u,n,r){r.r(n),r.d(n,{default:function(){return f}});var t=function(){var u=this,n=u._self._c;return n("router-view")},e=[],l={},s=l,a=r(1656),c=(0,a.A)(s,t,e,!1,null,null,null),f=c.exports}}]);
-//# sourceMappingURL=269.bcbaab16.js.map

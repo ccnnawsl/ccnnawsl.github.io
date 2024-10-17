@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkachastory"]=self["webpackChunkachastory"]||[]).push([[408],{6408:function(t,e,n){n.r(e),n.d(e,{default:function(){return f}});var s=function(){var t=this,e=t._self._c;return e("el-empty")},u=[],l={created(){this.$notify.info({title:"提示",message:"本页由 @竹渊 赞助制作（但还没想好怎么做"})}},r=l,a=n(1656),c=(0,a.A)(r,s,u,!1,null,null,null),f=c.exports}}]);
-//# sourceMappingURL=408.504bc076.js.map
