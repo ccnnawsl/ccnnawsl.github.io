@@ -1,1 +1,0 @@
-import"./index-bOllGN-7.js";import{E as t}from"./el-notification-sUSQ5hlo.js";import"./use-global-config-BDXdHXuM.js";import"./plugin-vue_export-helper-2EEaVpkF.js";import"./index--69wX0wg.js";import"./index-DLI_7cuI.js";const _={__name:"Friends",setup(r){return t({title:"提示",message:"本页由 @竹渊 赞助制作（但还没想好怎么做",type:"info",offset:80}),(e,i)=>"Friends"}};export{_ as default};
