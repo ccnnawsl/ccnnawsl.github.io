@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["static/js/Layout-BRv04NVy.js","static/js/element-plus-BuldVant.js","static/js/@vue-Dj_Q2L4-.js","static/js/lodash-es-BB-zMWwC.js","static/js/async-validator-DKvM95Vc.js","static/js/@vueuse-KVm8AqGA.js","static/js/@element-plus-DkpmeDBV.js","static/js/dayjs-DuEr9S7h.js","static/js/@popperjs-D9SI2xQl.js","static/js/@ctrl-r5W6hzzQ.js","static/js/normalize-wheel-es-B6fDCfyv.js","static/css/element-plus-D9eAT5zB.css","static/js/plugin-vueexport-helper-DlAUqK2U.js","static/css/Layout-bIVifRAm.css","static/js/Home-Dwni-gHb.js","static/js/index-UlE4Ehwe.js","static/js/axios-CCb-kr4I.js","static/css/Home-HkMYSga9.css","static/js/Layout-B519yTMP.js","static/js/38447162-sL2Vuagq.js","static/js/Title-Culmw17J.js","static/css/Title-DXv-XIfr.css","static/js/pinia-Du9Eba9j.js","static/js/vue-router-CrFKb4tt.js","static/js/pinia-plugin-persistedstate-BQU3TZ4K.js","static/js/destr-CVtkxrq9.js","static/js/deep-pick-omit-CegYQlcN.js","static/js/mockjs-DPji7F7J.js","static/css/38447162-B50aLveK.css","static/js/38466050-DpZ7p4v9.js","static/js/BasicPost-BPgLZl2L.js","static/js/38498128-CJi-uVDr.js","static/js/38725142-CuH305ls.js","static/js/Other-D7sZyTeE.js","static/js/Edit-CSeP8abV.js","static/css/Edit-DtGc4UsC.css","static/js/Letter-CtB20DkM.js","static/css/Letter-DTz2xyVo.css","static/js/Recreation-Wwi54Xfq.js","static/css/Recreation-Ctt0KGty.css","static/js/Layout-CShtT1ja.js","static/js/Friends-Cm8ew6B5.js","static/js/Events-BBaZlsX6.js","static/css/Events-frtVJ1Kn.css","static/js/Resources-znKOQY2v.js","static/css/Resources-vCQRS9tg.css","static/js/About-BvnYNE45.js","static/js/Books-BLA8IKic.js","static/css/Books-qSSAQF5Z.css"])))=>i.map(i=>d[i]);
-import{r as j,ad as z,o as b,c as v,O as _,W as A,al as w}from"./@vue-Dj_Q2L4-.js";import{c as C,a as E}from"./vue-router-CrFKb4tt.js";import{c as R}from"./pinia-Du9Eba9j.js";import{s as O}from"./pinia-plugin-persistedstate-BQU3TZ4K.js";import"./element-plus-BuldVant.js";import{M as t}from"./mockjs-DPji7F7J.js";import"./destr-CVtkxrq9.js";import"./deep-pick-omit-CegYQlcN.js";import"./lodash-es-BB-zMWwC.js";import"./async-validator-DKvM95Vc.js";import"./@vueuse-KVm8AqGA.js";import"./@element-plus-DkpmeDBV.js";import"./dayjs-DuEr9S7h.js";import"./@popperjs-D9SI2xQl.js";import"./@ctrl-r5W6hzzQ.js";import"./normalize-wheel-es-B6fDCfyv.js";(function(){const l=document.createElement("link").relList;if(l&&l.supports&&l.supports("modulepreload"))return;for(const p of document.querySelectorAll('link[rel="modulepreload"]'))c(p);new MutationObserver(p=>{for(const o of p)if(o.type==="childList")for(const m of o.addedNodes)m.tagName==="LINK"&&m.rel==="modulepreload"&&c(m)}).observe(document,{childList:!0,subtree:!0});function i(p){const o={};return p.integrity&&(o.integrity=p.integrity),p.referrerPolicy&&(o.referrerPolicy=p.referrerPolicy),p.crossOrigin==="use-credentials"?o.credentials="include":p.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function c(p){if(p.ep)return;p.ep=!0;const o=i(p);fetch(p.href,o)}})();const P={key:0,id:"app"},G={__name:"App",setup(s){const l=j(!0);return/(phone|iPad|pad|ios|pod|iPhone|iPod|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i.test(navigator.userAgent)&&alert("请使用电脑访问本网站！"),(i,c)=>{const p=z("router-view");return l.value?(b(),v("div",P,[_(p)])):A("",!0)}}},x="modulepreload",U=function(s){return"/"+s},g={},e=function(l,i,c){let p=Promise.resolve();if(i&&i.length>0){document.getElementsByTagName("link");const m=document.querySelector("meta[property=csp-nonce]"),r=(m==null?void 0:m.nonce)||(m==null?void 0:m.getAttribute("nonce"));p=Promise.allSettled(i.map(n=>{if(n=U(n),n in g)return;g[n]=!0;const y=n.endsWith(".css"),h=y?'[rel="stylesheet"]':"";if(document.querySelector(`link[href="${n}"]${h}`))return;const a=document.createElement("link");if(a.rel=y?"stylesheet":x,y||(a.as="script"),a.crossOrigin="",a.href=n,r&&a.setAttribute("nonce",r),document.head.appendChild(a),y)return new Promise((d,k)=>{a.addEventListener("load",d),a.addEventListener("error",()=>k(new Error(`Unable to preload CSS for ${n}`)))})}))}function o(m){const r=new Event("vite:preloadError",{cancelable:!0});if(r.payload=m,window.dispatchEvent(r),!r.defaultPrevented)throw m}return p.then(m=>{for(const r of m||[])r.status==="rejected"&&o(r.reason);return l().catch(o)})},M=C({history:E("/"),routes:[{path:"/",component:()=>e(()=>import("./Layout-BRv04NVy.js"),__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13])),redirect:"/about",children:[{path:"home",component:()=>e(()=>import("./Home-Dwni-gHb.js"),__vite__mapDeps([14,1,2,3,4,5,6,7,8,9,10,11,15,16,12,17]))},{path:"posts",component:()=>e(()=>import("./Layout-B519yTMP.js"),__vite__mapDeps([18,1,2,3,4,5,6,7,8,9,10,11])),children:[{path:"38447162",component:()=>e(()=>import("./38447162-sL2Vuagq.js"),__vite__mapDeps([19,1,2,3,4,5,6,7,8,9,10,11,20,12,21,15,16,22,23,24,25,26,27,28]))},{path:"38466050",component:()=>e(()=>import("./38466050-DpZ7p4v9.js"),__vite__mapDeps([29,30,1,2,3,4,5,6,7,8,9,10,11,20,12,21,15,16]))},{path:"38498128",component:()=>e(()=>import("./38498128-CJi-uVDr.js"),__vite__mapDeps([31,30,1,2,3,4,5,6,7,8,9,10,11,20,12,21,15,16]))},{path:"38725142",component:()=>e(()=>import("./38725142-CuH305ls.js"),__vite__mapDeps([32,30,1,2,3,4,5,6,7,8,9,10,11,20,12,21,15,16]))},{path:"other",component:()=>e(()=>import("./Other-D7sZyTeE.js"),__vite__mapDeps([33,1,2,3,4,5,6,7,8,9,10,11,12]))},{path:"edit",component:()=>e(()=>import("./Edit-CSeP8abV.js"),__vite__mapDeps([34,1,2,3,4,5,6,7,8,9,10,11,12,35]))},{path:"letter",component:()=>e(()=>import("./Letter-CtB20DkM.js"),__vite__mapDeps([36,1,2,3,4,5,6,7,8,9,10,11,12,15,16,37]))},{path:"recreation",component:()=>e(()=>import("./Recreation-Wwi54Xfq.js"),__vite__mapDeps([38,1,2,3,4,5,6,7,8,9,10,11,12,39]))}]},{path:"chat",component:()=>e(()=>import("./Layout-CShtT1ja.js"),__vite__mapDeps([40,12,2])),children:[{path:"friends",component:()=>e(()=>import("./Friends-Cm8ew6B5.js"),__vite__mapDeps([41,1,2,3,4,5,6,7,8,9,10,11]))}]},{path:"events",component:()=>e(()=>import("./Events-BBaZlsX6.js"),__vite__mapDeps([42,1,2,3,4,5,6,7,8,9,10,11,15,16,12,43]))},{path:"resources",component:()=>e(()=>import("./Resources-znKOQY2v.js"),__vite__mapDeps([44,1,2,3,4,5,6,7,8,9,10,11,12,45]))},{path:"about",component:()=>e(()=>import("./About-BvnYNE45.js"),__vite__mapDeps([46,1,2,3,4,5,6,7,8,9,10,11,15,16]))},{path:"books",component:()=>e(()=>import("./Books-BLA8IKic.js"),__vite__mapDeps([47,1,2,3,4,5,6,7,8,9,10,11,15,16,12,48]))}]}]}),f=R();f.use(O);const V=[{to:"火龙果叉烧肠粉",time:"2023-11-22",detail:`<p>画好可爱！</p>
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["static/js/Layout-BF2ylzJ-.js","static/js/element-plus-Ctcz7z8G.js","static/js/@vue-Dj_Q2L4-.js","static/js/lodash-es-BB-zMWwC.js","static/js/async-validator-DKvM95Vc.js","static/js/@vueuse-KVm8AqGA.js","static/js/@element-plus-DkpmeDBV.js","static/js/dayjs-DuEr9S7h.js","static/js/@popperjs-D9SI2xQl.js","static/js/@ctrl-r5W6hzzQ.js","static/js/normalize-wheel-es-B6fDCfyv.js","static/css/element-plus-D9eAT5zB.css","static/js/plugin-vueexport-helper-DlAUqK2U.js","static/css/Layout-CqQgBMWV.css","static/js/Home-uOzA_M0Q.js","static/js/index-BbN-uKnk.js","static/js/axios-CCb-kr4I.js","static/css/Home-HkMYSga9.css","static/js/Layout-Booq21ur.js","static/js/38447162-BYScnJwc.js","static/js/Floor-DL5Wh3Rc.js","static/css/Floor-CACCHd_3.css","static/js/Title-BvKRg2MF.js","static/css/Title-C-Edm3Ui.css","static/js/pinia-Du9Eba9j.js","static/js/vue-router-CrFKb4tt.js","static/js/pinia-plugin-persistedstate-BQU3TZ4K.js","static/js/destr-CVtkxrq9.js","static/js/deep-pick-omit-CegYQlcN.js","static/js/mockjs-DPji7F7J.js","static/css/38447162-Cd3GYKeR.css","static/js/38466050-DQFjeVDN.js","static/js/BasicPost-_daJq-zd.js","static/js/38498128-AWE7khzH.js","static/js/38725142-DSQwbpg5.js","static/js/OtherPosts-B4iLO_ni.js","static/css/OtherPosts-sc9g9dcI.css","static/js/Edit-Ds-bkSCd.js","static/css/Edit-DtGc4UsC.css","static/js/Letter-BUZI60wK.js","static/css/Letter-DTz2xyVo.css","static/js/Recreation-6JK5xhK0.js","static/css/Recreation-Ctt0KGty.css","static/js/Layout-CShtT1ja.js","static/js/Friends-B5vtHmuz.js","static/js/Events-DEd95Uo4.js","static/css/Events-frtVJ1Kn.css","static/js/Resources-jF1L0iSB.js","static/css/Resources-BuNw45Ay.css","static/js/About-CPvWwMkX.js","static/js/Books-Bmk8SWt2.js","static/css/Books-qSSAQF5Z.css"])))=>i.map(i=>d[i]);
+import{r as z,ad as b,o as v,c as _,O as g,Q as A,u as w,W as C,al as E}from"./@vue-Dj_Q2L4-.js";import{z as O,E as G}from"./element-plus-Ctcz7z8G.js";import{c as R,a as P}from"./vue-router-CrFKb4tt.js";import{c as x}from"./pinia-Du9Eba9j.js";import{s as M}from"./pinia-plugin-persistedstate-BQU3TZ4K.js";import{M as p}from"./mockjs-DPji7F7J.js";import"./lodash-es-BB-zMWwC.js";import"./async-validator-DKvM95Vc.js";import"./@vueuse-KVm8AqGA.js";import"./@element-plus-DkpmeDBV.js";import"./dayjs-DuEr9S7h.js";import"./@popperjs-D9SI2xQl.js";import"./@ctrl-r5W6hzzQ.js";import"./normalize-wheel-es-B6fDCfyv.js";import"./destr-CVtkxrq9.js";import"./deep-pick-omit-CegYQlcN.js";(function(){const l=document.createElement("link").relList;if(l&&l.supports&&l.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))c(e);new MutationObserver(e=>{for(const o of e)if(o.type==="childList")for(const r of o.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&c(r)}).observe(document,{childList:!0,subtree:!0});function i(e){const o={};return e.integrity&&(o.integrity=e.integrity),e.referrerPolicy&&(o.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?o.credentials="include":e.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function c(e){if(e.ep)return;e.ep=!0;const o=i(e);fetch(e.href,o)}})();const U={key:0,id:"app"},V={__name:"App",setup(s){const l=z(!0);return/(phone|iPad|pad|ios|pod|iPhone|iPod|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i.test(navigator.userAgent)&&alert("请使用电脑访问本网站！"),(i,c)=>{const e=b("router-view"),o=G;return l.value?(v(),_("div",U,[g(o,{locale:w(O)},{default:A(()=>[g(e)]),_:1},8,["locale"])])):C("",!0)}}},N="modulepreload",B=function(s){return"/"+s},f={},m=function(l,i,c){let e=Promise.resolve();if(i&&i.length>0){document.getElementsByTagName("link");const r=document.querySelector("meta[property=csp-nonce]"),t=(r==null?void 0:r.nonce)||(r==null?void 0:r.getAttribute("nonce"));e=Promise.allSettled(i.map(n=>{if(n=B(n),n in f)return;f[n]=!0;const y=n.endsWith(".css"),d=y?'[rel="stylesheet"]':"";if(document.querySelector(`link[href="${n}"]${d}`))return;const a=document.createElement("link");if(a.rel=y?"stylesheet":N,y||(a.as="script"),a.crossOrigin="",a.href=n,t&&a.setAttribute("nonce",t),document.head.appendChild(a),y)return new Promise((k,j)=>{a.addEventListener("load",k),a.addEventListener("error",()=>j(new Error(`Unable to preload CSS for ${n}`)))})}))}function o(r){const t=new Event("vite:preloadError",{cancelable:!0});if(t.payload=r,window.dispatchEvent(t),!t.defaultPrevented)throw r}return e.then(r=>{for(const t of r||[])t.status==="rejected"&&o(t.reason);return l().catch(o)})},D=R({history:P("/"),routes:[{path:"/",component:()=>m(()=>import("./Layout-BF2ylzJ-.js"),__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10,11,12,13])),redirect:"/about",children:[{path:"home",component:()=>m(()=>import("./Home-uOzA_M0Q.js"),__vite__mapDeps([14,1,2,3,4,5,6,7,8,9,10,11,15,16,12,17]))},{path:"posts",component:()=>m(()=>import("./Layout-Booq21ur.js"),__vite__mapDeps([18,1,2,3,4,5,6,7,8,9,10,11])),children:[{path:"38447162",component:()=>m(()=>import("./38447162-BYScnJwc.js"),__vite__mapDeps([19,1,2,3,4,5,6,7,8,9,10,11,20,12,21,22,23,15,16,24,25,26,27,28,29,30]))},{path:"38466050",component:()=>m(()=>import("./38466050-DQFjeVDN.js"),__vite__mapDeps([31,32,1,2,3,4,5,6,7,8,9,10,11,20,12,21,22,23,15,16]))},{path:"38498128",component:()=>m(()=>import("./38498128-AWE7khzH.js"),__vite__mapDeps([33,32,1,2,3,4,5,6,7,8,9,10,11,20,12,21,22,23,15,16]))},{path:"38725142",component:()=>m(()=>import("./38725142-DSQwbpg5.js"),__vite__mapDeps([34,32,1,2,3,4,5,6,7,8,9,10,11,20,12,21,22,23,15,16]))},{path:"otherPosts",component:()=>m(()=>import("./OtherPosts-B4iLO_ni.js"),__vite__mapDeps([35,1,2,3,4,5,6,7,8,9,10,11,12,22,23,15,16,36]))},{path:"edit",component:()=>m(()=>import("./Edit-Ds-bkSCd.js"),__vite__mapDeps([37,1,2,3,4,5,6,7,8,9,10,11,12,38]))},{path:"letter",component:()=>m(()=>import("./Letter-BUZI60wK.js"),__vite__mapDeps([39,1,2,3,4,5,6,7,8,9,10,11,12,15,16,40]))},{path:"recreation",component:()=>m(()=>import("./Recreation-6JK5xhK0.js"),__vite__mapDeps([41,1,2,3,4,5,6,7,8,9,10,11,12,42]))}]},{path:"chat",component:()=>m(()=>import("./Layout-CShtT1ja.js"),__vite__mapDeps([43,12,2])),children:[{path:"friends",component:()=>m(()=>import("./Friends-B5vtHmuz.js"),__vite__mapDeps([44,1,2,3,4,5,6,7,8,9,10,11]))}]},{path:"events",component:()=>m(()=>import("./Events-DEd95Uo4.js"),__vite__mapDeps([45,1,2,3,4,5,6,7,8,9,10,11,15,16,12,46]))},{path:"resources",component:()=>m(()=>import("./Resources-jF1L0iSB.js"),__vite__mapDeps([47,1,2,3,4,5,6,7,8,9,10,11,12,48]))},{path:"about",component:()=>m(()=>import("./About-CPvWwMkX.js"),__vite__mapDeps([49,1,2,3,4,5,6,7,8,9,10,11,15,16]))},{path:"books",component:()=>m(()=>import("./Books-Bmk8SWt2.js"),__vite__mapDeps([50,1,2,3,4,5,6,7,8,9,10,11,15,16,12,51]))}]}]}),h=x();h.use(M);const T=[{to:"火龙果叉烧肠粉",time:"2023-11-22",detail:`<p>画好可爱！</p>
     <p>很喜欢你的画～不用叠甲大胆发就好！我不介意哒～笔芯~</p>`},{to:"火龙果叉烧肠粉",time:"2023-11-22",detail:`<p>谢谢你～玩得很开心嘻嘻！</p>
     <p>虽然有点坏心眼，但是可以用你的画给她当头像嘛hhh</p>
     <p>如果你不介意的话~</p>
@@ -18,7 +18,7 @@ import{r as j,ad as z,o as b,c as v,O as _,W as A,al as w}from"./@vue-Dj_Q2L4-.j
     <p>不过你想发挥我们没有意见哦！！</p>`},{to:"火龙果叉烧肠粉",time:"2024-01-13",detail:"*"},{to:"火龙果叉烧肠粉",time:"2024-01-15",detail:"**"},{to:"而今听雨",time:"2023-12-20",detail:"***"},{to:"黑堂隐月",time:"2023-12-24",detail:"****"},{to:"黑堂隐月",time:"2023-12-25",detail:"*****"},{to:"typeomicron",time:"2023-1?-??",detail:"<p>另外，比较震惊的点还在于，友人A刚跟我说来直播的时候，跟我说NGA绝大部分都是男孩子，没想到我楼里竟然真有活跃的姑娘呀！(当然友人A除外)</p>"},{to:"枞枞那年",time:"2024-01-05",detail:"******"},{to:"枞枞那年",time:"2024-01-06",detail:"*******"},{to:"枞枞那年",time:"2024-01-06",detail:"********"},{to:"枞枞那年",time:"2024-01-08",detail:"*********"},{to:"枞枞那年",time:"2024-01-09",detail:"**********"},{to:"枞枞那年",time:"2024-01-11",detail:"***********"},{to:"枞枞那年",time:"2024-01-15",detail:"************"},{to:"枞枞那年",time:"2024-01-17",detail:"*************"},{to:"枞枞那年",time:"2024-01-17",detail:"**************"},{to:"枞枞那年",time:"2024-01-17",detail:"***************"},{to:"fluoria",time:"2024-01-07",detail:"****************"},{to:"fluoria",time:"2024-01-??",detail:"*****************"},{to:"fluoria",time:"2024-01-11",detail:"******************"},{to:"万世常青",time:"2024-01-08",detail:"*******************"},{to:"万世常青",time:"2024-01-08",detail:"********************"},{to:"万世常青",time:"2024-01-08",detail:"*********************"},{to:"万世常青",time:"2024-01-08",detail:"**********************"},{to:"万世常青",time:"2024-01-08",detail:"***********************"},{to:"万世常青",time:"2024-01-08",detail:"************************"},{to:"万世常青",time:"2024-01-11",detail:"*************************"},{to:"万世常青",time:"2024-01-11",detail:"**************************"},{to:"万世常青",time:"2024-01-21",detail:"***************************"},{to:"万世常青",time:"2024-01-22",detail:"****************************"},{to:"万世常青",time:"2024-01-29",detail:"*****************************"},{to:"万世常青",time:"2024-01-31",detail:"******************************"},{to:"万世常青",time:"2024-01-31",detail:"*******************************"},{to:"万世常青",time:"2024-01-??",detail:"<p>涩涩就是你的问题！</p>"},{to:"万世常青",time:"2024-02-03",detail:"********************************"},{to:"duebdusej",time:"2024-01-12",detail:"*********************************"},{to:"yumemichan",time:"2024-01-12",detail:`<p>哎？意料之外的问题哎！</p>
     <p>应该不会吧？我俩都从没尝试过cos哎，当然哪天改变主意了可能就会试试也说不定哈哈哈哈</p>`},{to:"yumemichan",time:"2024-01-12",detail:`<p>她确实挺喜欢海豹哦~</p>
     <p>揉揉~</p>`},{to:"Awilix",time:"2024-01-12",detail:"**********************************"},{to:"不存在的竹渊",time:"2024-01-13",detail:"***********************************"},{to:"不存在的竹渊",time:"2024-02-09",detail:"************************************"},{to:"不存在的竹渊",time:"2024-02-17",detail:"*************************************"},{to:"71和EU",time:"2024-01-13",detail:"**************************************"},{to:"太阳咸鱼",time:"2024-01-13",detail:"***************************************"},{to:"林猫音",time:"2024-01-14",detail:"****************************************"},{to:"林猫音",time:"2024-02-03",detail:"*****************************************"},{to:"林猫音",time:"2024-02-03",detail:"******************************************"},{to:"-÷",time:"2024-01-29",detail:"*******************************************"},{to:"-÷",time:"2024-02-03",detail:"********************************************"},{to:"EugeneGen",time:"2024-01-29",detail:"*********************************************"},{to:"wcz214",time:"2024-01-31",detail:"**********************************************"},{to:"GodisaDeadII",time:"2024-02-09",detail:`<p>除夕快乐～</p>
-    <p>hhh我看到楼里的回复了，好好笑哈哈哈哈。不过邮寄就不必啦，再说我俩也不怎么喝茶，如果真的想送就送群友吧哈哈哈。无论如何谢谢啦！新的一年一定要快乐哦～</p>`},{to:"fs & 海原",time:"2024-01-11",detail:"***********************************************"},{to:"fs & 海原",time:"2024-01-11",detail:"************************************************"},{to:"fs & 海原",time:"2024-01-11",detail:"*************************************************"},{to:"fs & 海原",time:"2024-01-11",detail:"**************************************************"},{to:"fs & 海原",time:"2024-01-12",detail:"***************************************************"},{to:"fs & 海原",time:"2024-01-12",detail:"****************************************************"},{to:"fs & 海原",time:"2024-01-12",detail:"*****************************************************"},{to:"fs & 海原",time:"2024-01-12",detail:"******************************************************"},{to:"fs & 海原",time:"2024-01-13",detail:"*******************************************************"},{to:"fs & 海原",time:"2024-01-13",detail:"********************************************************"},{to:"fs & 海原",time:"2024-01-13",detail:"*********************************************************"},{to:"fs & 海原",time:"2024-01-13",detail:"**********************************************************"},{to:"fs & 海原",time:"2024-01-13",detail:"***********************************************************"},{to:"fs & 海原",time:"2024-01-13",detail:"************************************************************"},{to:"fs & 海原",time:"2024-01-15",detail:"*************************************************************"},{to:"fs & 海原",time:"2024-01-15",detail:"**************************************************************"},{to:"fs & 海原",time:"2024-01-15",detail:"***************************************************************"},{to:"fs & 海原",time:"2024-01-15",detail:"****************************************************************"},{to:"fs & 海原",time:"2024-01-15",detail:"*****************************************************************"},{to:"fs & 海原",time:"2024-01-15",detail:"******************************************************************"},{to:"fs & 海原",time:"2024-01-16",detail:"*******************************************************************"},{to:"fs & 海原",time:"2024-01-16",detail:"********************************************************************"},{to:"fs & 海原",time:"2024-01-17",detail:"*********************************************************************"},{to:"fs & 海原",time:"2024-01-17",detail:"**********************************************************************"},{to:"fs & 海原",time:"2024-01-17",detail:"***********************************************************************"},{to:"fs & 海原",time:"2024-01-19",detail:"************************************************************************"},{to:"fs & 海原",time:"2024-01-21",detail:"*************************************************************************"},{to:"fs & 海原",time:"2024-01-24",detail:"**************************************************************************"},{to:"fs & 海原",time:"2024-01-24",detail:"***************************************************************************"},{to:"fs & 海原",time:"2024-01-24",detail:"****************************************************************************"},{to:"fs & 海原",time:"2024-01-24",detail:"*****************************************************************************"},{to:"fs & 海原",time:"2024-01-29",detail:"******************************************************************************"},{to:"fs & 海原",time:"2024-01-29",detail:"*******************************************************************************"},{to:"fs & 海原",time:"2024-01-29",detail:"********************************************************************************"},{to:"fs & 海原",time:"2024-02-03",detail:"*********************************************************************************"},{to:"fs & 海原",time:"2024-02-03",detail:"**********************************************************************************"},{to:"fs & 海原",time:"2024-02-08",detail:"***********************************************************************************"},{to:"fs & 海原",time:"2024-02-16",detail:"************************************************************************************"}],N=[{name:"回到过去变成猫",author:"陈词懒调",time:2013,rate:10,tag:"日常/变身"},{name:"长夜将明",author:"尺间萤火",time:2021,rate:7,tag:"日常/恋爱"},{name:"独游",author:"酒精过敏",time:2008,rate:8,tag:"游戏"},{name:"诡秘之主",author:"爱潜水的乌贼",time:2018,rate:10,tag:"玄幻"},{name:"史上第一混乱",author:"张小花",time:2008,rate:10,tag:"搞笑/群穿"},{name:"放开那个女巫",author:"二目",time:2016,rate:7,tag:"奇幻"},{name:"覆汉",author:"榴弹怕水",time:2018,rate:8,tag:"历史"},{name:"秦吏",author:"七月新番",time:2018,rate:10,tag:"历史"},{name:"新书",author:"七月新番",time:2020,rate:7,tag:"历史"},{name:"汉阙",author:"七月新番",time:2019,rate:9,tag:"历史"},{name:"匡扶汉室",author:"七月新番",time:2023,rate:8,tag:"历史"},{name:"穷鬼的上下两千年",author:"非玩家角色",time:2017,rate:8,tag:"历史/变单"},{name:"捡到一只始皇帝",author:"历史系之狼",time:2020,rate:8,tag:"历史"},{name:"每周三都要进行灵魂互换",author:"江别月",time:2020,rate:8,tag:"日常/恋爱"},{name:"绍宋",author:"榴弹怕水",time:2019,rate:8,tag:"历史"},{name:"看守魔女们的典狱长",author:"广场喂鸽子",time:2020,rate:8,tag:"奇幻"},{name:"我们生活在南京",author:"天瑞说符",time:2021,rate:9,tag:"科幻"},{name:"亏成首富从游戏开始",author:"青衫取醉",time:2019,rate:8,tag:"游戏/迪化"},{name:"终宋",author:"怪诞的表哥",time:2021,rate:6,tag:"历史"},{name:"我的时空旅舍",author:"金色茉莉花",time:2018,rate:6,tag:"日常/无限"},{name:"世界树的游戏",author:"咯嘣",time:2019,rate:8,tag:"奇幻/变单/第四天灾"},{name:"我家老婆来自一千年前",author:"花还没开",time:2020,rate:8,tag:"日常/恋爱/反穿"},{name:"黎明之剑",author:"远瞳",time:2018,rate:9,tag:"科幻"},{name:"领主大人是卧底",author:"学语新风",time:2023,rate:6,tag:"游戏"},{name:"下班，然后变成魔法少女",author:"弧盐",time:2023,rate:9,tag:"变身"},{name:"那不勒斯之鸦",author:"天下云怅",time:2024,rate:7,tag:"奇幻/变身"},{name:"谁把我的尸体藏起来了！",author:"有妖眼",time:2024,rate:7,tag:"奇幻"},{name:"夜明珠",author:"伯伦希尔",time:2005,rate:10,tag:"变嫁/日常"},{name:"异世界女神传",author:"伯伦希尔",time:0,rate:8,tag:"奇幻/变身"},{name:"辽宁1950",author:"过渡形态",time:2021,rate:5,tag:"历史/群穿"},{name:"姬的时代",author:"黑暗中凝聚",time:0,rate:8,tag:"变百/科幻"},{name:"花开娇艳的卷柏",author:"双色瞳的猫猫",time:2013,rate:9,tag:"变身/日常"},{name:"铁十字",author:"月影梧桐",time:2016,rate:7,tag:"历史"},{name:"赛汗塔拉的雪",author:"伴伊走天涯",time:2021,rate:9,tag:"变嫁/日常"},{name:"我的第三帝国",author:"龙灵骑士",time:2016,rate:7,tag:"历史"},{name:"我的二战不可能这么萌",author:"月面",time:2016,rate:8,tag:"历史/娘化/奇幻"},{name:"恶魔狂想曲之明日骄阳",author:"胡鳕",time:2003,rate:8,tag:"奇幻/变装"},{name:"她的山，她的海",author:"扶华",time:2019,rate:10,tag:"百合/日常"},{name:"重生成为情敌妻",author:"舒怀",time:2014,rate:8,tag:"变嫁/日常"},{name:"永夜",author:"桩桩",time:2009,rate:7,tag:"变身/奇幻"},{name:"我，退休传奇，被迫上岸",author:"虾球",time:2021,rate:7,tag:"百合/奇幻"},{name:"与你编织的传说之歌",author:"逢坂琪",time:2017,rate:9,tag:"变嫁/奇幻"},{name:"我的妈妈是虹夏怎么办？",author:"彩根",time:2022,rate:5,tag:"乐子/同人"},{name:"魔女的镇魂歌",author:"Ain Soph Aur",time:2017,rate:8,tag:"百合/奇幻"},{name:"脑袋开花",author:"月鸦",time:2017,rate:9,tag:"变百/游戏"},{name:"巴赫小姐的螃蟹卡农",author:"月鸦",time:2020,rate:8,tag:"变百/奇幻"},{name:"神的调色盘",author:"月鸦",time:2018,rate:8,tag:"变百/日常"},{name:"被善意所欺骗的她们都重生了",author:"日高舞夜",time:2022,rate:8,tag:"恋爱/抱憾终身"},{name:"孤独与摇滚与乐队观察家",author:"新手工具人员",time:2023,rate:6,tag:"百合/同人"},{name:"恶役公主不会死于王室战争",author:"一个路过的five",time:2022,rate:7,tag:"奇幻/百合"},{name:"千反田的超高难度重生攻略",author:"哈士奇菌",time:2018,rate:7,tag:"百合/同人"},{name:"我是我的错误",author:"乱世银娘",time:2022,rate:8,tag:"自百/日常"},{name:"伊芙特罗娜的旧日见闻",author:"橘赭Juzer",time:2021,rate:9,tag:"变身/奇幻"},{name:"守护神的我成了魔王的猫娘爱妃",author:"苏御茗",time:2022,rate:5,tag:"奇幻/变嫁"},{name:"转生成精灵的我不想当宠物",author:"孜然风",time:2018,rate:7,tag:"奇幻/变单/虐主"},{name:"关于我基友是魔法少女这件事",author:"猫的眼镜",time:2021,rate:6,tag:"变身"},{name:"来自深渊的我今天也要拯救人类",author:"一簇西语",time:2019,rate:7,tag:"奇幻/变身"},{name:"我才不是魔法少女",author:"吃土的书语",time:2017,rate:6,tag:"变身"},{name:"傀儡师搞事日记",author:"帷间客转生",time:2022,rate:6,tag:"变嫁/奇幻"},{name:"魔王大人即使变身也要复仇哟",author:"兰玉边",time:2019,rate:7,tag:"变嫁/奇幻"},{name:"血后",author:"伯伦希尔",time:2024,rate:7,tag:"变嫁/奇幻"},{name:"萌娘三国演义",author:"三十二变",time:2011,rate:8,tag:"历史/娘化"},{name:"魔王奶爸",author:"盘古混沌",time:0,rate:8,tag:"奇幻/虐主"},{name:"我捡了只重生的猫",author:"半亩南山",time:2020,rate:7,tag:"日常"},{name:"变身女学霸",author:"醉卧笑伊人",time:2014,rate:5,tag:"变身/日常"},{name:"重生女学霸",author:"迷失之途",time:2015,rate:7,tag:"变百/日常"},{name:"东京影姬",author:"小迷",time:2016,rate:7,tag:"变百/日常"},{name:"侵入人间",author:"发条橙之梦",time:2020,rate:7,tag:"日常/恋爱"},{name:"绑架全人类",author:"小雨清晨",time:2012,rate:9,tag:"科幻/穿越"},{name:"疯巫妖的实验日志",author:"愤怒的松鼠",time:2014,rate:8,tag:"游戏"},{name:"静的平行世界",author:"雪先生",time:2011,rate:8,tag:"变百/日常"},{name:"回到过去变成鼠",author:"一点不好笑",time:2015,rate:6,tag:"日常/变身/同人"},{name:"桃李不言gl",author:"一盏夜灯",time:2017,rate:7,tag:"百合/日常"},{name:"西风盛开之塔",author:"黄连苦寒",time:2016,rate:8,tag:"百合/奇幻"},{name:"域外天魔搞事日记",author:"帷间客",time:2017,rate:5,tag:"奇幻/乐子"},{name:"女主从书里跑出来了怎么办",author:"姬叉",time:2021,rate:6,tag:"玄幻/日常"},{name:"暴风城打工实录",author:"又一个鱼雷",time:2022,rate:8,tag:"奇幻/同人"},{name:"吕布的人生模拟器",author:"会说话的胡子",time:2021,rate:6,tag:"历史"},{name:"诡秘：从阅读者开始",author:"名火速返",time:2021,rate:6,tag:"奇幻/同人"},{name:"好莱坞的秘密花园",author:"三千烦恼丝",time:2011,rate:7,tag:"百合/日常"},{name:"年度最垃圾伪圣女",author:"わからないマン",time:2020,rate:10,tag:"变单/奇幻/恶役/误解"},{name:"游戏人生",author:"榎宮祐",time:2012,rate:8,tag:"奇幻"},{name:"妹妹人生",author:"入間人間",time:2015,rate:9,tag:"日常/骨科"},{name:"青春猪头少年系列",author:"鴨志田一",time:2014,rate:8,tag:"恋爱/校园"},{name:"在地下城寻求邂逅是否搞错了什么",author:"大森藤ノ",time:2013,rate:8,tag:"奇幻"},{name:"欢迎来到实力至上主义的教室",author:"衣笠彰梧",time:2015,rate:6,tag:"校园"},{name:"加速世界",author:"川原礫",time:2009,rate:8,tag:"游戏"},{name:"刀剑神域: Progressive",author:"川原礫",time:2012,rate:8,tag:"游戏/恋爱"},{name:"魔女之旅",author:"白石定規",time:2016,rate:7,tag:"奇幻/旅行/百合"},{name:"刀剑神域",author:"川原礫",time:2009,rate:8,tag:"游戏/恋爱"},{name:"Re：从零开始的异世界生活",author:"長月達平",time:2014,rate:7,tag:"奇幻/轮回"},{name:"86―不存在的战区―",author:"安里アサト",time:2017,rate:8,tag:"科幻"},{name:"這個勇者明明超TUEEE卻過度謹慎",author:"土日月",time:2017,rate:8,tag:"奇幻/搞笑"},{name:"不正经的魔术讲师与禁忌教典",author:"羊太郎",time:2014,rate:7,tag:"奇幻"},{name:"约会大作战",author:"橘公司",time:2011,rate:7,tag:"奇幻/后宫"},{name:"打倒女神勇者的下流手段",author:"笹木さくま",time:2017,rate:6,tag:"奇幻/后宫"},{name:"三角的距离无限趋近零",author:"岬鷺宮",time:2018,rate:6,tag:"恋爱/日常"},{name:"刺客守则",author:"天城ケイ",time:2016,rate:6,tag:"奇幻/后宫"},{name:"精灵使的剑舞",author:"志瑞祐",time:2010,rate:6,tag:"奇幻/后宫"},{name:"紫罗兰永恒花园",author:"暁佳奈",time:2015,rate:7,tag:"奇幻/恋爱"},{name:"剃须。然后捡到女高中生",author:"しめさば",time:2018,rate:6,tag:"恋爱/日常"},{name:"平凡职业造就世界最强",author:"白米良",time:2013,rate:6,tag:"群穿/奇幻/后宫"},{name:"盾之勇者成名录",author:"アネコユサギ",time:2012,rate:5,tag:"奇幻/后宫"},{name:"夜伽之国的月光姬",author:"青野海鳥",time:2015,rate:8,tag:"变单/奇幻/误解"},{name:"叶隐樱不悲叹",author:"玖洞",time:2021,rate:7,tag:"变身/奇幻"},{name:"转生成为魔剑了",author:"棚架ユウ",time:2016,rate:5,tag:"奇幻/变身"},{name:"堤亚穆帝国物语 ～从断头台开始，公主重生后的逆转人生～",author:"餅月望",time:2018,rate:7,tag:"奇幻/误解"},{name:"只有我知道这个世界是个游戏",author:"ウスバー",time:2012,rate:8,tag:"游戏"},{name:"被寝取的勇者由性转少女来拯救",author:"アネコユサギ",time:2016,rate:8,tag:"变嫁/奇幻/r18"},{name:"リコリス・リコイル Ordinary days",author:"アサウラ",time:2022,rate:8,tag:"百合/日常"},{name:"转生王女与天才千金的魔法革命",author:"鴉ぴえろ",time:2019,rate:7,tag:"奇幻/百合"},{name:"星刻的龙骑士",author:"瑞智士記",time:2010,rate:6,tag:"奇幻/后宫"},{name:"〈古典部〉系列",author:"米澤穂信",time:2001,rate:8,tag:"校园/推理"},{name:"我的青春恋爱物语果然有问题",author:"渡航",time:2011,rate:8,tag:"校园/恋爱"},{name:"末日时在做什么？有没有空？可以来拯救吗？",author:"枯野瑛",time:2014,rate:8,tag:"奇幻/恋爱"},{name:"龙王的工作！",author:"白鳥士郎",time:2015,rate:7,tag:"将棋/萝莉"},{name:"为美好的世界献上祝福！",author:"暁なつめ",time:2013,rate:8,tag:"搞笑/奇幻"},{name:"TS卫生兵小姐的战场日记",author:"まさきたま（サンキューカッス）",time:2023,rate:9,tag:"变嫁/战争"},{name:"谦虚踏实的生活下去",author:"ひよこのケーキ",time:2013,rate:8,tag:"校园/恋爱"},{name:"我的妹妹是最棒的配菜",author:"風見源一郎",time:2021,rate:8,tag:"日常/r18"},{name:"植物魔物娘日记",author:"水無瀬",time:2021,rate:6,tag:"百合/奇幻"},{name:"TS人渣碧池少女想被寝取",author:"二本目海老天マン",time:2022,rate:8,tag:"变身/误解/日常"},{name:"不在手游里拿到人气投票第一名就回不去！",author:"夢泉",time:2022,rate:7,tag:"变身/游戏"},{name:"一般性癖TS转生少女真白光绝望地渴望被拯救",author:"エテンジオール",time:2024,rate:6,tag:"变身/误解/日常"},{name:"TS转生手游女主角，偷偷抽烟的时候被主人公撞了个正着",author:"恥谷きゆう",time:2023,rate:7,tag:"变身/游戏"},{name:"龙神的巫女",author:"都森メメ",time:2021,rate:6,tag:"奇幻/变身"},{name:"TS转生魔法少女但属性是情报灾害",author:"忍法ウミウシの舞",time:2023,rate:7,tag:"奇幻/变身"},{name:"腐血的萨尔瓦多：TS反派外道转生",author:"WhatSoon",time:2023,rate:8,tag:"变嫁/奇幻"},{name:"转生的我不会放弃TS的~以美少女化为目标!",author:"不破ふわり",time:2023,rate:7,tag:"奇幻/变装"},{name:"深海余烬",author:"远瞳",time:2022,rate:8,tag:"科幻"},{name:"炮火弧线",author:"康斯坦丁伯爵",time:2024,rate:7,tag:"历史"},{name:"诡秘：善魔女",author:"囧囧哟",time:2023,rate:7,tag:"奇幻/同人"},{name:"舍弟诸葛亮",author:"浙东匹夫",time:2023,rate:6,tag:"历史"},{name:"家父汉高祖",author:"历史系之狼",time:2022,rate:7,tag:"历史"},{name:"天才俱乐部",author:"城城与蝉",time:2023,rate:6,tag:"科幻"},{name:"剧透历史：从三国开始",author:"冷泡茶加冰",time:2023,rate:7,tag:"历史"},{name:"宿命之环",author:"爱潜水的乌贼",time:2023,rate:6,tag:"玄幻"},{name:"篡清：我初恋是慈禧",author:"沉默的糕点",time:2023,rate:5,tag:"历史"},{name:"箱子里的大明",author:"三十二变",time:2023,rate:6,tag:"历史"},{name:"血之圣典",author:"咯嘣",time:2022,rate:6,tag:"奇幻/变身"},{name:"蒸汽之国的爱丽丝",author:"超究极武神崩坏",time:2022,rate:7,tag:"奇幻"},{name:"转生女妖，与重生千金拯救世界",author:"宇宙鸽",time:2023,rate:6,tag:"奇幻/变身/百合"},{name:"三国：我马谡只想作死",author:"蜀中剑士",time:2023,rate:6,tag:"历史"},{name:"魔法！",author:"学语新风",time:2023,rate:7,tag:"奇幻"},{name:"重生之心动",author:"初恋璀璨如夏花",time:2010,rate:8,tag:"日常/恋爱"},{name:"和她假戏真做了",author:"清汤涮香菜",time:2021,rate:7,tag:"日常/百合"},{name:"平生一顾",author:"楠安",time:2018,rate:7,tag:"日常/百合"},{name:"奋斗在苏俄",author:"懵懂的猪",time:2021,rate:8,tag:"历史"},{name:"网游之射破苍穹",author:"龙大人",time:2011,rate:6,tag:"游戏"},{name:"征服异界从游戏开始",author:"爱吃辣鸡粉",time:2020,rate:7,tag:"游戏/第四天灾"},{name:"花与剑与法兰西",author:"匂宮出夢",time:2014,rate:7,tag:"历史/修罗场"},{name:"爱丽丝梦游异境",author:"约书亚",time:2017,rate:6,tag:"奇幻/变身"},{name:"水色（短篇）",author:"逢坂琪",time:2017,rate:7,tag:"日常/变身"},{name:"二次元的影后指南书",author:"小迷",time:2019,rate:7,tag:"变百/日常"},{name:"致四千年后",author:"祈耳喵",time:2017,rate:7,tag:"历史"},{name:"但愿世界能和平",author:"月鸦",time:2016,rate:7,tag:"奇幻/变百"},{name:"圣母男主角不伺候了！",author:"阿布阿布",time:2021,rate:6,tag:"日常"},{name:"东京声士",author:"匿友小尘",time:2020,rate:7,tag:"日常/声优"},{name:"稻荷妖神记事",author:"天使末日",time:2019,rate:6,tag:"奇幻/变单"},{name:"我，你们的翅膀",author:"黑桐五更",time:2021,rate:7,tag:"日常/百合"},{name:"勇者爱丽丝的社会性死亡传说",author:"才不是H萝莉",time:2020,rate:7,tag:"奇幻/百合/萝莉"},{name:"我在东瀛当巫女",author:"清鸾",time:2020,rate:7,tag:"奇幻/变百"},{name:"我真不是邪神走狗",author:"万劫火",time:2020,rate:7,tag:"奇幻/迪化"},{name:"在黑暗组织当干部",author:"论外的我",time:2021,rate:6,tag:"奇幻/百合"},{name:"萝莉勇者饲养日记",author:"泯冬",time:2020,rate:7,tag:"奇幻/后宫/萝莉"},{name:"拷问官小姐只想摸鱼",author:"速冻玉米",time:2021,rate:7,tag:"奇幻/百合"},{name:"希茨菲尔探案集",author:"爱丽丝威震天",time:2021,rate:7,tag:"奇幻/变百"},{name:"穿越方式崩坏的鲁路修",author:"双子座的凌",time:2015,rate:6,tag:"同人/变嫁"},{name:"东京女公关",author:"栗子香糕",time:2022,rate:6,tag:"日常/变百"},{name:"成为了挚友的赛马娘",author:"醉猫",time:2023,rate:6,tag:"变嫁/同人/日常"},{name:"转生哥布林，姬骑士想拿我练级？",author:"咖啡中毒",time:2023,rate:7,tag:"奇幻/搞笑"},{name:"多萝西的禁密书典",author:"天使末日",time:2021,rate:8,tag:"奇幻/变单"},{name:"我怎么可能成为你的恋人，不行不行！(※不是不可能！？)",author:"みかみてれん",time:2020,rate:7,tag:"百合/日常"},{name:"无欲圣女",author:"中村 颯希",time:2016,rate:7,tag:"变身/误解/奇幻"},{name:"四个青梅竹马被勇者NTR了…咦？有一个人样子？",author:"鶴沢仁",time:2019,rate:6,tag:"奇幻"},{name:"TS转生女配角",author:"まさきたま（サンキューカッス）",time:2017,rate:7,tag:"奇幻/变嫁/r18"},{name:"我替神明写剧本",author:"地球popi子",time:2024,rate:6,tag:"日常/恶役"},{name:"新世纪厨男战士",author:"TheJinFu",time:2024,rate:7,tag:"乐子/奇幻/病娇"},{name:"女儿你懂不懂什么叫孝义啊！",author:"godineye",time:2024,rate:7,tag:"乐子/变嫁/奇幻"}],B=[{floor:"319",username:"万世常青",time:"2023-12-20 10:23",reply:"",comment:`<p>我感觉这个说话风格，楼主不像男孩子啊，感觉很多点不是男孩子会去在意的</p>
+    <p>hhh我看到楼里的回复了，好好笑哈哈哈哈。不过邮寄就不必啦，再说我俩也不怎么喝茶，如果真的想送就送群友吧哈哈哈。无论如何谢谢啦！新的一年一定要快乐哦～</p>`},{to:"fs & 海原",time:"2024-01-11",detail:"***********************************************"},{to:"fs & 海原",time:"2024-01-11",detail:"************************************************"},{to:"fs & 海原",time:"2024-01-11",detail:"*************************************************"},{to:"fs & 海原",time:"2024-01-11",detail:"**************************************************"},{to:"fs & 海原",time:"2024-01-12",detail:"***************************************************"},{to:"fs & 海原",time:"2024-01-12",detail:"****************************************************"},{to:"fs & 海原",time:"2024-01-12",detail:"*****************************************************"},{to:"fs & 海原",time:"2024-01-12",detail:"******************************************************"},{to:"fs & 海原",time:"2024-01-13",detail:"*******************************************************"},{to:"fs & 海原",time:"2024-01-13",detail:"********************************************************"},{to:"fs & 海原",time:"2024-01-13",detail:"*********************************************************"},{to:"fs & 海原",time:"2024-01-13",detail:"**********************************************************"},{to:"fs & 海原",time:"2024-01-13",detail:"***********************************************************"},{to:"fs & 海原",time:"2024-01-13",detail:"************************************************************"},{to:"fs & 海原",time:"2024-01-15",detail:"*************************************************************"},{to:"fs & 海原",time:"2024-01-15",detail:"**************************************************************"},{to:"fs & 海原",time:"2024-01-15",detail:"***************************************************************"},{to:"fs & 海原",time:"2024-01-15",detail:"****************************************************************"},{to:"fs & 海原",time:"2024-01-15",detail:"*****************************************************************"},{to:"fs & 海原",time:"2024-01-15",detail:"******************************************************************"},{to:"fs & 海原",time:"2024-01-16",detail:"*******************************************************************"},{to:"fs & 海原",time:"2024-01-16",detail:"********************************************************************"},{to:"fs & 海原",time:"2024-01-17",detail:"*********************************************************************"},{to:"fs & 海原",time:"2024-01-17",detail:"**********************************************************************"},{to:"fs & 海原",time:"2024-01-17",detail:"***********************************************************************"},{to:"fs & 海原",time:"2024-01-19",detail:"************************************************************************"},{to:"fs & 海原",time:"2024-01-21",detail:"*************************************************************************"},{to:"fs & 海原",time:"2024-01-24",detail:"**************************************************************************"},{to:"fs & 海原",time:"2024-01-24",detail:"***************************************************************************"},{to:"fs & 海原",time:"2024-01-24",detail:"****************************************************************************"},{to:"fs & 海原",time:"2024-01-24",detail:"*****************************************************************************"},{to:"fs & 海原",time:"2024-01-29",detail:"******************************************************************************"},{to:"fs & 海原",time:"2024-01-29",detail:"*******************************************************************************"},{to:"fs & 海原",time:"2024-01-29",detail:"********************************************************************************"},{to:"fs & 海原",time:"2024-02-03",detail:"*********************************************************************************"},{to:"fs & 海原",time:"2024-02-03",detail:"**********************************************************************************"},{to:"fs & 海原",time:"2024-02-08",detail:"***********************************************************************************"},{to:"fs & 海原",time:"2024-02-16",detail:"************************************************************************************"}],S=[{name:"回到过去变成猫",author:"陈词懒调",time:2013,rate:10,tag:"日常/变身"},{name:"长夜将明",author:"尺间萤火",time:2021,rate:7,tag:"日常/恋爱"},{name:"独游",author:"酒精过敏",time:2008,rate:8,tag:"游戏"},{name:"诡秘之主",author:"爱潜水的乌贼",time:2018,rate:10,tag:"玄幻"},{name:"史上第一混乱",author:"张小花",time:2008,rate:10,tag:"搞笑/群穿"},{name:"放开那个女巫",author:"二目",time:2016,rate:7,tag:"奇幻"},{name:"覆汉",author:"榴弹怕水",time:2018,rate:8,tag:"历史"},{name:"秦吏",author:"七月新番",time:2018,rate:10,tag:"历史"},{name:"新书",author:"七月新番",time:2020,rate:7,tag:"历史"},{name:"汉阙",author:"七月新番",time:2019,rate:9,tag:"历史"},{name:"匡扶汉室",author:"七月新番",time:2023,rate:8,tag:"历史"},{name:"穷鬼的上下两千年",author:"非玩家角色",time:2017,rate:8,tag:"历史/变单"},{name:"捡到一只始皇帝",author:"历史系之狼",time:2020,rate:8,tag:"历史"},{name:"每周三都要进行灵魂互换",author:"江别月",time:2020,rate:8,tag:"日常/恋爱"},{name:"绍宋",author:"榴弹怕水",time:2019,rate:8,tag:"历史"},{name:"看守魔女们的典狱长",author:"广场喂鸽子",time:2020,rate:8,tag:"奇幻"},{name:"我们生活在南京",author:"天瑞说符",time:2021,rate:9,tag:"科幻"},{name:"亏成首富从游戏开始",author:"青衫取醉",time:2019,rate:8,tag:"游戏/迪化"},{name:"终宋",author:"怪诞的表哥",time:2021,rate:6,tag:"历史"},{name:"我的时空旅舍",author:"金色茉莉花",time:2018,rate:6,tag:"日常/无限"},{name:"世界树的游戏",author:"咯嘣",time:2019,rate:8,tag:"奇幻/变单/第四天灾"},{name:"我家老婆来自一千年前",author:"花还没开",time:2020,rate:8,tag:"日常/恋爱/反穿"},{name:"黎明之剑",author:"远瞳",time:2018,rate:9,tag:"科幻"},{name:"领主大人是卧底",author:"学语新风",time:2023,rate:6,tag:"游戏"},{name:"下班，然后变成魔法少女",author:"弧盐",time:2023,rate:9,tag:"变身"},{name:"那不勒斯之鸦",author:"天下云怅",time:2024,rate:7,tag:"奇幻/变身"},{name:"谁把我的尸体藏起来了！",author:"有妖眼",time:2024,rate:7,tag:"奇幻"},{name:"夜明珠",author:"伯伦希尔",time:2005,rate:10,tag:"变嫁/日常"},{name:"异世界女神传",author:"伯伦希尔",time:0,rate:8,tag:"奇幻/变身"},{name:"辽宁1950",author:"过渡形态",time:2021,rate:5,tag:"历史/群穿"},{name:"姬的时代",author:"黑暗中凝聚",time:0,rate:8,tag:"变百/科幻"},{name:"花开娇艳的卷柏",author:"双色瞳的猫猫",time:2013,rate:9,tag:"变身/日常"},{name:"铁十字",author:"月影梧桐",time:2016,rate:7,tag:"历史"},{name:"赛汗塔拉的雪",author:"伴伊走天涯",time:2021,rate:9,tag:"变嫁/日常"},{name:"我的第三帝国",author:"龙灵骑士",time:2016,rate:7,tag:"历史"},{name:"我的二战不可能这么萌",author:"月面",time:2016,rate:8,tag:"历史/娘化/奇幻"},{name:"恶魔狂想曲之明日骄阳",author:"胡鳕",time:2003,rate:8,tag:"奇幻/变装"},{name:"她的山，她的海",author:"扶华",time:2019,rate:10,tag:"百合/日常"},{name:"重生成为情敌妻",author:"舒怀",time:2014,rate:8,tag:"变嫁/日常"},{name:"永夜",author:"桩桩",time:2009,rate:7,tag:"变身/奇幻"},{name:"我，退休传奇，被迫上岸",author:"虾球",time:2021,rate:7,tag:"百合/奇幻"},{name:"与你编织的传说之歌",author:"逢坂琪",time:2017,rate:9,tag:"变嫁/奇幻"},{name:"我的妈妈是虹夏怎么办？",author:"彩根",time:2022,rate:5,tag:"乐子/同人"},{name:"魔女的镇魂歌",author:"Ain Soph Aur",time:2017,rate:8,tag:"百合/奇幻"},{name:"脑袋开花",author:"月鸦",time:2017,rate:9,tag:"变百/游戏"},{name:"巴赫小姐的螃蟹卡农",author:"月鸦",time:2020,rate:8,tag:"变百/奇幻"},{name:"神的调色盘",author:"月鸦",time:2018,rate:8,tag:"变百/日常"},{name:"被善意所欺骗的她们都重生了",author:"日高舞夜",time:2022,rate:8,tag:"恋爱/抱憾终身"},{name:"孤独与摇滚与乐队观察家",author:"新手工具人员",time:2023,rate:6,tag:"百合/同人"},{name:"恶役公主不会死于王室战争",author:"一个路过的five",time:2022,rate:7,tag:"奇幻/百合"},{name:"千反田的超高难度重生攻略",author:"哈士奇菌",time:2018,rate:7,tag:"百合/同人"},{name:"我是我的错误",author:"乱世银娘",time:2022,rate:8,tag:"自百/日常"},{name:"伊芙特罗娜的旧日见闻",author:"橘赭Juzer",time:2021,rate:9,tag:"变身/奇幻"},{name:"守护神的我成了魔王的猫娘爱妃",author:"苏御茗",time:2022,rate:5,tag:"奇幻/变嫁"},{name:"转生成精灵的我不想当宠物",author:"孜然风",time:2018,rate:7,tag:"奇幻/变单/虐主"},{name:"关于我基友是魔法少女这件事",author:"猫的眼镜",time:2021,rate:6,tag:"变身"},{name:"来自深渊的我今天也要拯救人类",author:"一簇西语",time:2019,rate:7,tag:"奇幻/变身"},{name:"我才不是魔法少女",author:"吃土的书语",time:2017,rate:6,tag:"变身"},{name:"傀儡师搞事日记",author:"帷间客转生",time:2022,rate:6,tag:"变嫁/奇幻"},{name:"魔王大人即使变身也要复仇哟",author:"兰玉边",time:2019,rate:7,tag:"变嫁/奇幻"},{name:"血后",author:"伯伦希尔",time:2024,rate:7,tag:"变嫁/奇幻"},{name:"萌娘三国演义",author:"三十二变",time:2011,rate:8,tag:"历史/娘化"},{name:"魔王奶爸",author:"盘古混沌",time:0,rate:8,tag:"奇幻/虐主"},{name:"我捡了只重生的猫",author:"半亩南山",time:2020,rate:7,tag:"日常"},{name:"变身女学霸",author:"醉卧笑伊人",time:2014,rate:5,tag:"变身/日常"},{name:"重生女学霸",author:"迷失之途",time:2015,rate:7,tag:"变百/日常"},{name:"东京影姬",author:"小迷",time:2016,rate:7,tag:"变百/日常"},{name:"侵入人间",author:"发条橙之梦",time:2020,rate:7,tag:"日常/恋爱"},{name:"绑架全人类",author:"小雨清晨",time:2012,rate:9,tag:"科幻/穿越"},{name:"疯巫妖的实验日志",author:"愤怒的松鼠",time:2014,rate:8,tag:"游戏"},{name:"静的平行世界",author:"雪先生",time:2011,rate:8,tag:"变百/日常"},{name:"回到过去变成鼠",author:"一点不好笑",time:2015,rate:6,tag:"日常/变身/同人"},{name:"桃李不言gl",author:"一盏夜灯",time:2017,rate:7,tag:"百合/日常"},{name:"西风盛开之塔",author:"黄连苦寒",time:2016,rate:8,tag:"百合/奇幻"},{name:"域外天魔搞事日记",author:"帷间客",time:2017,rate:5,tag:"奇幻/乐子"},{name:"女主从书里跑出来了怎么办",author:"姬叉",time:2021,rate:6,tag:"玄幻/日常"},{name:"暴风城打工实录",author:"又一个鱼雷",time:2022,rate:8,tag:"奇幻/同人"},{name:"吕布的人生模拟器",author:"会说话的胡子",time:2021,rate:6,tag:"历史"},{name:"诡秘：从阅读者开始",author:"名火速返",time:2021,rate:6,tag:"奇幻/同人"},{name:"好莱坞的秘密花园",author:"三千烦恼丝",time:2011,rate:7,tag:"百合/日常"},{name:"年度最垃圾伪圣女",author:"わからないマン",time:2020,rate:10,tag:"变单/奇幻/恶役/误解"},{name:"游戏人生",author:"榎宮祐",time:2012,rate:8,tag:"奇幻"},{name:"妹妹人生",author:"入間人間",time:2015,rate:9,tag:"日常/骨科"},{name:"青春猪头少年系列",author:"鴨志田一",time:2014,rate:8,tag:"恋爱/校园"},{name:"在地下城寻求邂逅是否搞错了什么",author:"大森藤ノ",time:2013,rate:8,tag:"奇幻"},{name:"欢迎来到实力至上主义的教室",author:"衣笠彰梧",time:2015,rate:6,tag:"校园"},{name:"加速世界",author:"川原礫",time:2009,rate:8,tag:"游戏"},{name:"刀剑神域: Progressive",author:"川原礫",time:2012,rate:8,tag:"游戏/恋爱"},{name:"魔女之旅",author:"白石定規",time:2016,rate:7,tag:"奇幻/旅行/百合"},{name:"刀剑神域",author:"川原礫",time:2009,rate:8,tag:"游戏/恋爱"},{name:"Re：从零开始的异世界生活",author:"長月達平",time:2014,rate:7,tag:"奇幻/轮回"},{name:"86―不存在的战区―",author:"安里アサト",time:2017,rate:8,tag:"科幻"},{name:"這個勇者明明超TUEEE卻過度謹慎",author:"土日月",time:2017,rate:8,tag:"奇幻/搞笑"},{name:"不正经的魔术讲师与禁忌教典",author:"羊太郎",time:2014,rate:7,tag:"奇幻"},{name:"约会大作战",author:"橘公司",time:2011,rate:7,tag:"奇幻/后宫"},{name:"打倒女神勇者的下流手段",author:"笹木さくま",time:2017,rate:6,tag:"奇幻/后宫"},{name:"三角的距离无限趋近零",author:"岬鷺宮",time:2018,rate:6,tag:"恋爱/日常"},{name:"刺客守则",author:"天城ケイ",time:2016,rate:6,tag:"奇幻/后宫"},{name:"精灵使的剑舞",author:"志瑞祐",time:2010,rate:6,tag:"奇幻/后宫"},{name:"紫罗兰永恒花园",author:"暁佳奈",time:2015,rate:7,tag:"奇幻/恋爱"},{name:"剃须。然后捡到女高中生",author:"しめさば",time:2018,rate:6,tag:"恋爱/日常"},{name:"平凡职业造就世界最强",author:"白米良",time:2013,rate:6,tag:"群穿/奇幻/后宫"},{name:"盾之勇者成名录",author:"アネコユサギ",time:2012,rate:5,tag:"奇幻/后宫"},{name:"夜伽之国的月光姬",author:"青野海鳥",time:2015,rate:8,tag:"变单/奇幻/误解"},{name:"叶隐樱不悲叹",author:"玖洞",time:2021,rate:7,tag:"变身/奇幻"},{name:"转生成为魔剑了",author:"棚架ユウ",time:2016,rate:5,tag:"奇幻/变身"},{name:"堤亚穆帝国物语 ～从断头台开始，公主重生后的逆转人生～",author:"餅月望",time:2018,rate:7,tag:"奇幻/误解"},{name:"只有我知道这个世界是个游戏",author:"ウスバー",time:2012,rate:8,tag:"游戏"},{name:"被寝取的勇者由性转少女来拯救",author:"アネコユサギ",time:2016,rate:8,tag:"变嫁/奇幻/r18"},{name:"リコリス・リコイル Ordinary days",author:"アサウラ",time:2022,rate:8,tag:"百合/日常"},{name:"转生王女与天才千金的魔法革命",author:"鴉ぴえろ",time:2019,rate:7,tag:"奇幻/百合"},{name:"星刻的龙骑士",author:"瑞智士記",time:2010,rate:6,tag:"奇幻/后宫"},{name:"〈古典部〉系列",author:"米澤穂信",time:2001,rate:8,tag:"校园/推理"},{name:"我的青春恋爱物语果然有问题",author:"渡航",time:2011,rate:8,tag:"校园/恋爱"},{name:"末日时在做什么？有没有空？可以来拯救吗？",author:"枯野瑛",time:2014,rate:8,tag:"奇幻/恋爱"},{name:"龙王的工作！",author:"白鳥士郎",time:2015,rate:7,tag:"将棋/萝莉"},{name:"为美好的世界献上祝福！",author:"暁なつめ",time:2013,rate:8,tag:"搞笑/奇幻"},{name:"TS卫生兵小姐的战场日记",author:"まさきたま（サンキューカッス）",time:2023,rate:9,tag:"变嫁/战争"},{name:"谦虚踏实的生活下去",author:"ひよこのケーキ",time:2013,rate:8,tag:"校园/恋爱"},{name:"我的妹妹是最棒的配菜",author:"風見源一郎",time:2021,rate:8,tag:"日常/r18"},{name:"植物魔物娘日记",author:"水無瀬",time:2021,rate:6,tag:"百合/奇幻"},{name:"TS人渣碧池少女想被寝取",author:"二本目海老天マン",time:2022,rate:8,tag:"变身/误解/日常"},{name:"不在手游里拿到人气投票第一名就回不去！",author:"夢泉",time:2022,rate:7,tag:"变身/游戏"},{name:"一般性癖TS转生少女真白光绝望地渴望被拯救",author:"エテンジオール",time:2024,rate:6,tag:"变身/误解/日常"},{name:"TS转生手游女主角，偷偷抽烟的时候被主人公撞了个正着",author:"恥谷きゆう",time:2023,rate:7,tag:"变身/游戏"},{name:"龙神的巫女",author:"都森メメ",time:2021,rate:6,tag:"奇幻/变身"},{name:"TS转生魔法少女但属性是情报灾害",author:"忍法ウミウシの舞",time:2023,rate:7,tag:"奇幻/变身"},{name:"腐血的萨尔瓦多：TS反派外道转生",author:"WhatSoon",time:2023,rate:8,tag:"变嫁/奇幻"},{name:"转生的我不会放弃TS的~以美少女化为目标!",author:"不破ふわり",time:2023,rate:7,tag:"奇幻/变装"},{name:"深海余烬",author:"远瞳",time:2022,rate:8,tag:"科幻"},{name:"炮火弧线",author:"康斯坦丁伯爵",time:2024,rate:7,tag:"历史"},{name:"诡秘：善魔女",author:"囧囧哟",time:2023,rate:7,tag:"奇幻/同人"},{name:"舍弟诸葛亮",author:"浙东匹夫",time:2023,rate:6,tag:"历史"},{name:"家父汉高祖",author:"历史系之狼",time:2022,rate:7,tag:"历史"},{name:"天才俱乐部",author:"城城与蝉",time:2023,rate:6,tag:"科幻"},{name:"剧透历史：从三国开始",author:"冷泡茶加冰",time:2023,rate:7,tag:"历史"},{name:"宿命之环",author:"爱潜水的乌贼",time:2023,rate:6,tag:"玄幻"},{name:"篡清：我初恋是慈禧",author:"沉默的糕点",time:2023,rate:5,tag:"历史"},{name:"箱子里的大明",author:"三十二变",time:2023,rate:6,tag:"历史"},{name:"血之圣典",author:"咯嘣",time:2022,rate:6,tag:"奇幻/变身"},{name:"蒸汽之国的爱丽丝",author:"超究极武神崩坏",time:2022,rate:7,tag:"奇幻"},{name:"转生女妖，与重生千金拯救世界",author:"宇宙鸽",time:2023,rate:6,tag:"奇幻/变身/百合"},{name:"三国：我马谡只想作死",author:"蜀中剑士",time:2023,rate:6,tag:"历史"},{name:"魔法！",author:"学语新风",time:2023,rate:7,tag:"奇幻"},{name:"重生之心动",author:"初恋璀璨如夏花",time:2010,rate:8,tag:"日常/恋爱"},{name:"和她假戏真做了",author:"清汤涮香菜",time:2021,rate:7,tag:"日常/百合"},{name:"平生一顾",author:"楠安",time:2018,rate:7,tag:"日常/百合"},{name:"奋斗在苏俄",author:"懵懂的猪",time:2021,rate:8,tag:"历史"},{name:"网游之射破苍穹",author:"龙大人",time:2011,rate:6,tag:"游戏"},{name:"征服异界从游戏开始",author:"爱吃辣鸡粉",time:2020,rate:7,tag:"游戏/第四天灾"},{name:"花与剑与法兰西",author:"匂宮出夢",time:2014,rate:7,tag:"历史/修罗场"},{name:"爱丽丝梦游异境",author:"约书亚",time:2017,rate:6,tag:"奇幻/变身"},{name:"水色（短篇）",author:"逢坂琪",time:2017,rate:7,tag:"日常/变身"},{name:"二次元的影后指南书",author:"小迷",time:2019,rate:7,tag:"变百/日常"},{name:"致四千年后",author:"祈耳喵",time:2017,rate:7,tag:"历史"},{name:"但愿世界能和平",author:"月鸦",time:2016,rate:7,tag:"奇幻/变百"},{name:"圣母男主角不伺候了！",author:"阿布阿布",time:2021,rate:6,tag:"日常"},{name:"东京声士",author:"匿友小尘",time:2020,rate:7,tag:"日常/声优"},{name:"稻荷妖神记事",author:"天使末日",time:2019,rate:6,tag:"奇幻/变单"},{name:"我，你们的翅膀",author:"黑桐五更",time:2021,rate:7,tag:"日常/百合"},{name:"勇者爱丽丝的社会性死亡传说",author:"才不是H萝莉",time:2020,rate:7,tag:"奇幻/百合/萝莉"},{name:"我在东瀛当巫女",author:"清鸾",time:2020,rate:7,tag:"奇幻/变百"},{name:"我真不是邪神走狗",author:"万劫火",time:2020,rate:7,tag:"奇幻/迪化"},{name:"在黑暗组织当干部",author:"论外的我",time:2021,rate:6,tag:"奇幻/百合"},{name:"萝莉勇者饲养日记",author:"泯冬",time:2020,rate:7,tag:"奇幻/后宫/萝莉"},{name:"拷问官小姐只想摸鱼",author:"速冻玉米",time:2021,rate:7,tag:"奇幻/百合"},{name:"希茨菲尔探案集",author:"爱丽丝威震天",time:2021,rate:7,tag:"奇幻/变百"},{name:"穿越方式崩坏的鲁路修",author:"双子座的凌",time:2015,rate:6,tag:"同人/变嫁"},{name:"东京女公关",author:"栗子香糕",time:2022,rate:6,tag:"日常/变百"},{name:"成为了挚友的赛马娘",author:"醉猫",time:2023,rate:6,tag:"变嫁/同人/日常"},{name:"转生哥布林，姬骑士想拿我练级？",author:"咖啡中毒",time:2023,rate:7,tag:"奇幻/搞笑"},{name:"多萝西的禁密书典",author:"天使末日",time:2021,rate:8,tag:"奇幻/变单"},{name:"我怎么可能成为你的恋人，不行不行！(※不是不可能！？)",author:"みかみてれん",time:2020,rate:7,tag:"百合/日常"},{name:"无欲圣女",author:"中村 颯希",time:2016,rate:7,tag:"变身/误解/奇幻"},{name:"四个青梅竹马被勇者NTR了…咦？有一个人样子？",author:"鶴沢仁",time:2019,rate:6,tag:"奇幻"},{name:"TS转生女配角",author:"まさきたま（サンキューカッス）",time:2017,rate:7,tag:"奇幻/变嫁/r18"},{name:"我替神明写剧本",author:"地球popi子",time:2024,rate:6,tag:"日常/恶役"},{name:"新世纪厨男战士",author:"TheJinFu",time:2024,rate:7,tag:"乐子/奇幻/病娇"},{name:"女儿你懂不懂什么叫孝义啊！",author:"godineye",time:2024,rate:7,tag:"乐子/变嫁/奇幻"}],L=[{floor:"319",username:"万世常青",time:"2023-12-20 10:23",reply:"",comment:`<p>我感觉这个说话风格，楼主不像男孩子啊，感觉很多点不是男孩子会去在意的</p>
       <p><del>女大形象跃然纸上</del></p>`},{floor:"419",username:"kngchau",time:"2023-12-20 13:36",reply:"",comment:`<p>你们也太离谱了</p>
     <p>不过现在跟着坛友回顾一下当时的发言还挺好玩的</p>
     <p>收藏了！</p>
@@ -241,7 +241,7 @@ import{r as j,ad as z,o as b,c as v,O as _,W as A,al as w}from"./@vue-Dj_Q2L4-.j
     <p>
       我是陌生人，听到的也是一个经过转述甚至是二次转述的故事，但是衷心地祝福她们两个都能各自获得幸福的人生，也祝你们几位的友情(包括爱情)能长长久久！我也有一些可能得一两年才能见上一面，好多年才能团聚一次的朋友，这种多年异地还能一切如旧的朋友我觉得非常珍贵哦！
     </p>
-    <p>お幸せに！(真心)</p>`}],T=[{floor:"0",username:"而今听雨",time:"2023-11-24 20:19",reply:"",comment:`<p>本帖是目前mygo直播最高楼帖子的楼层索引：</p>
+    <p>お幸せに！(真心)</p>`}],I=[{floor:"0",username:"而今听雨",time:"2023-11-24 20:19",reply:"",comment:`<p>本帖是目前mygo直播最高楼帖子的楼层索引：</p>
     <p>[mygo直播贴] 被朋友拉来直播mygo了，模拟追番，一天一集(尽量)不多看(第11/13话)</p>
     <p>(又称ansy直播帖、soyo女士亲自直播楼、soyo带你看mygo、mygo观影体式直播楼、acha直播楼)</p>
     <p><strong>以下索引是不包含剧透的，每一话开始位置</strong></p>
@@ -468,7 +468,7 @@ import{r as j,ad as z,o as b,c as v,O as _,W as A,al as w}from"./@vue-Dj_Q2L4-.j
       3061是被迷路日击破
       (3062是看见几只鱼发的迷路日封面二破 笑 )
       (3435是是我个人在此楼最大的收获，层主总结的很好，原来像chaurin这种心思细腻的妹子看见小睦头那句话反应真的会很大)
-      3436是看完姐妹论的反应(虽然好像只有这一层)</p>`}],D=[{floor:"0",username:"轻风cc",time:"2023-11-21 18:32",reply:"",comment:`<p>不然有些东西长颈鹿会因为剧透而没办法说出口……</p>
+      3436是看完姐妹论的反应(虽然好像只有这一层)</p>`}],q=[{floor:"0",username:"轻风cc",time:"2023-11-21 18:32",reply:"",comment:`<p>不然有些东西长颈鹿会因为剧透而没办法说出口……</p>
     <p>比如刚刚哪位楼主对第九集做出的预测。</p>
     <p>“你这么写不怕观众喷你拍动漫拍了个寂寞吗？”</p>
     <p>我真的很想说，我tm第九集的时候就是这么吐槽的！</p>`},{floor:"2",username:"MrBullut",time:"2023-11-21 18:47",reply:"",comment:"<p>1969年，涌入阿姆斯特朗家中的记者为两位老人购买最新彩电，然后将摄像机对准两位老人，来直播看直播的宇航员父母(无端)</p>"},{floor:"7",username:"南明丶璃歌",time:"2023-11-21 18:53",reply:"",comment:"<p>一般来讲，当然有人提议设置专楼的时候，那这里就是专楼了</p>"},{floor:"8",username:"1.048596",time:"2023-11-21 18:53",reply:"",comment:"<p>有一种微妙的这个楼会变成伥鬼集中营，各位长颈鹿有什么头猪吗</p>"},{floor:"11",username:"Paper Tiger",time:"2023-11-21 18:56",reply:"",comment:`<p>人太多了总有剧透的</p>
@@ -497,7 +497,7 @@ import{r as j,ad as z,o as b,c as v,O as _,W as A,al as w}from"./@vue-Dj_Q2L4-.j
     <p>另外悲报</p>
     <p>食用完ansy楼后感觉自己吃撑了</p>
     <p>又或者是嗜血狂热被净化了</p>
-    <p>看别的直播楼提不太起劲来了</p>`}],S=[{floor:"0",username:"kngchau",time:"2023-11-19 21:16",reply:"",comment:`<p>被朋友要求一定要来nga直播mygo……</p>
+    <p>看别的直播楼提不太起劲来了</p>`}],K=[{floor:"0",username:"kngchau",time:"2023-11-19 21:16",reply:"",comment:`<p>被朋友要求一定要来nga直播mygo……</p>
     <p>目前：对mygo一无所知，邦邦前作没看过，ll看过，只知道泛式强推(视频没点进去过)，然后mygo好像有角色拿了挺王。</p>
     <p>观看计划：很多人说追番似乎体验更好，决定模拟追番，一天一集，看完来nga讨论这一天的观感和后续剧情推测，绝不多看。</p>
     <p>今天决定看一些播出前的信息。</p>
@@ -3186,4 +3186,392 @@ import{r as j,ad as z,o as b,c as v,O as _,W as A,al as w}from"./@vue-Dj_Q2L4-.j
       <del>看一辈子mygo之歌</del>
       这帖子我还是上班摸鱼看的 ，流眼泪和平复心情颇费一番功夫。感谢chaurin和友人A的分享 ，让人重新体验到了mygo的魅力。感谢mygo，让人重新找回了青春的鼓动。
       <del>友人A你做得好，你做得好啊.JPG</del>
-    </p>`}];t.mock("/api/about","get",{code:200,message:"success",data:["本站为我的练手之作，虽然现在的主题为Acha，但以后遇到什么有意思的东西都可能塞进来","一点儿样式都没写（没有美工妹子，摆了，默认的也不错","使用了Vue3+ElementPlus的静态网站，Pinia用于状态管理，Mock.js模拟网络请求（有生之年一定会用SpringBoot写一个配套的后端（确信（所以服务器谁来赞助一下（暗示","部署在GithubPages上，并通过DNS关联了本域名achastory.cn","最后更新时间：2024-10-18"]});t.mock("/api/events","get",{code:200,message:"success",data:[{time:"2023/6/29",title:"动画 BanG Dream! It's MyGO!!!!! 正式播出",content:"但此刻debuff拉满的mygo还如同每个季度都会刷新的杂鱼偶像番"},{time:"2023/7/27",title:"为什么要演奏春日影！",content:"第七话的播出正式拉开了mygo动画的“疯狂时代”"},{time:"2023/11/19",title:"天使茶屋降临NGA",content:"用户kngchau在NGA论坛开贴：被朋友拉来直播mygo了……"},{time:"2023/11/21",title:"长颈鹿集会正式成立",content:"没有人会想到，这么一个为了看直播而成立的群聊，会成为chaurin的忠实后援团"},{time:"2024/1/11",title:"chau与群友的私信+1",content:"至此acha第一季堂堂完结"},{time:"2024/2/9",title:"天使茶屋降临长颈鹿集会",content:"令人难忘的新年开始了"},{time:"2024/9/28",title:"AchaStory企划正式开始",content:"起码新建了文件夹"}]});t.mock("/api/posts/letters","get",{code:200,message:"success",data:V});t.mock("/api/steps","get",{code:200,message:"success",data:[{title:"step1",description:"不反感3d/乐队/轻百合/女女关系性"},{title:"step2",description:"观看动画BanG Dream! It's MyGO!!!!!并非常喜欢"},{title:"step3",description:"化身长颈鹿四处寻找食物时，找到了NGA茶楼"},{title:"step4",description:"刷完了茶楼并找到了长颈鹿集会"},{title:"step5",description:"补完了‘茶史’(包括但不限于acha第一季/dlc/夏纪rp)"},{title:"step6",description:"最后因缺乏食物天天翘首以盼天使茶屋降临"},{title:"step7",description:"等待Ave Mujica的到来更是折磨"}]});t.mock("/api/books","get",{code:200,message:"success",data:N});t.mock("/api/posts?id=38725142","get",{code:200,message:"success",data:B});t.mock("/api/posts?id=38498128","get",{code:200,message:"success",data:T});t.mock("/api/posts?id=38466050","get",{code:200,message:"success",data:D});t.mock("/api/posts?id=38447162","get",{code:200,message:"success",data:S});const u=w(G);u.use(f);u.use(M);u.mount("#app");
+    </p>`}],X=[{floor:"44",username:"kngchau",time:"2023-11-26 17:13",reply:`<p>0.前言</p>
+    <p>本文不包含任何对mygo本篇的剧透，请放心观看。</p>
+    <p>在2023年11月，就连十月新番都播放了一半的时候，在NGA论坛，一个幽灵，一个七月番的幽灵，依旧在二次元板块游荡。
+      《BanGDream It’s MyGO!!!!!》(以下基本简称为mygo)，这部公认的黑马动画，甚至在完结两个月之后，依旧延续着它极为高涨的社区热情。
+      在论坛里，“看mygo”成为了一项极为热门的项目。据这个帖子的整理，完整看完本作的“补番感想”居然能有40份之多，而且每一个帖子里回复的人数都络绎不绝。
+      这其中，最为传奇的毫无疑问是一个名为《[mygo直播贴]被朋友拉来直播mygo了，模拟追番，一天一集(尽量)不多看》的帖子。
+      截止目前回复已经有接近三千楼(数据待更新)，且其中的内容甚至都有些略微超越了“对动画的感想”的分野，产生出了“以故事中的角色为蓝本，聚焦于直播者(楼主)与直播者的朋友之间的关系性”的奇特画面。
+      我作为一个全程追着阅读这一奇观帖子的观众之一，在兴奋和感慨之余，也希望将自己勉强还能维持理性的思维抽离出来，好好进行一次分析。</p>
+    <p>为什么mygo会成为充斥“直播感想”的作品？
+      为什么mygo的观众们如此乐见于这样的直播？</p>
+    <p>对于从不接触该作品的人，或者哪怕对于只是沉醉于mygo的观众而言，为什么大家会对“区区一部动画”投射如此庞大的热情，或许是无法说明理由的。
+      但是，我希望能够用我的个人观点，来对这一现象进行一次浅评。</p>
+    <p>叠甲：本篇内容并无任何学术性内容和数据统计，全部都为以纯粹感性出发的个人主张。正因如此，必然会有幼稚之处，也希望各位多多指正。</p>
+    <p>1.那曾经一度耀眼的舞台</p>
+    <p>即便抛开那些显而易见的续作的伏线，单论第一季，有关于MyGO!!!!!乐队的成立与冲突的故事，也毫无疑问是一部极为反传统，但又极为才华横溢的作品。
+      作为编剧的绫奈由仁子老师呈上了一段剑走偏锋的故事，而在其他制作人员的共同努力之下，将这段故事以极为精致，完成度极高的TV动画的形式汇集了出来。</p>
+    <p>如果要讨论直播楼的问题，首要的部分显然是“mygo到底有什么魔力，值得大家如此这样反复讨论”。
+      失去原作的评价也只不过是无源之水，而正是因为mygo有着极为特殊之处，才会产生这种仿佛魔力一般的热情。</p>
+    <p>mygo作为单纯的一部动画作品而言的优秀之处，例如极为精巧的剧本，干净利落的节奏，音画的完美配合等等，想必已经有无数前人分析过了，这里就不作深入讨论。
+      本文将要提出的概念，是从更加偏向精神情绪的层面，来论述mygo的叙事手法的独特性。</p>
+    <p>直接从结论说起：mygo的剧本，可以说是极端地展现了这样的创作思路：</p>
+    <p>情感为导向，体验为核心，共情为方式。</p>
+    <p>以下就一个个对其进行分析。</p>
+    <p>情感为导向</p>
+    <p>一般而言，对于文学作品的“动力”，总是会分为两个维度：“以逻辑为导向”，与“以情感为导向”。</p>
+    <p>前者的典型例子，比如本格推理作品。读者甚至不需要对其中的任何一名角色产生任何评价——甚至都不需要记住大家的名字。哪怕把出场角色的脸部特征都抹平，也依旧无法掩盖我们对抽丝剥茧的推理过程的兴奋感。
+      而后者的典型例子就是各种早间肥皂剧了——如果你认真去分析所有人的动机和逻辑，很可能会陷入深深的迷惑感，但任何时候打开电视都能直观感受到的，激烈情绪所带来的戏剧冲突，正是它的卖点。</p>
+    <p>事实上，逻辑导向和情感导向从来都不是互相冲突的。一步优秀的作品，往往能够同时做到缜密的逻辑与澎湃的情感。而mygo毫无疑问，正是其中的佼佼者。
+      论逻辑，mygo故事的草蛇灰线以及“回旋镖文化”一直是大家津津乐道的内容，甚至制作组会如同推理小说一般刻意地将线索隐藏在故事各处；
+      而论感情，mygo的剧本一直被大家戏称为美少女演的肥皂剧，几乎每一集存在着两种以上情绪的有意引导。</p>
+    <p>然而，如果要说“哪一边才是mygo的主轴”的话，那毫无疑问，是情感。
+      如果你用纯粹理性的思维，去追溯mygo故事的线索的话，会发现自己总是很快会追溯到头。
+      因为那个“尽头”的东西，几乎都是少女所怀揣的某种情感。
+      依赖性，自卑，怀念感，安心感，正是这样数不胜数的感情，构成了mygo的角色所行动的“基本逻辑”。</p>
+    <p>换而言之，mygo的故事的构建方式，是以逻辑为骨架，以情感为关节。
+      在理解了大家的行事逻辑之后，它其实是显而易见且不易更改的，而真正导致所有人在故事中的起落的——其本质仍然是各种感情的变化。
+      而这带给观众的体验则是，在每集动画播出之后，乐此不疲地挖掘故事中所隐藏的线索。而如何解读这些被掩盖的线索，必然要回归到对少女们的感情的解读之上。
+      这也正是产生“讨论度”的，最直观的理由的一部分。</p>
+    <p>体验为核心</p>
+    <p>mygo是一部以体验为核心的作品。
+      这样说可能有些抽象，不过可以简单地从反面来说清。与“体验”相对应的，其实是“观赏”或是“凝视”之类的词语。
+      换而言之就是，我们对故事中的角色们的态度，是“高于角色”，还是“持平于角色”的区别。</p>
+    <p>在动画之中有一种类型片，叫做“Cute Girls Doing Cute Things”。
+      在不同语境之下或许会对这个词语给出不同的别名，例如“空气日常萌系美少女动画”，“芳文系动画”，“轻百合日常动画”等等。
+      这种动画有一个非常典型的特征：构建出充满萌系可爱符号的美少女们，然后让她们群聚在一起，做着一些事情。
+      从普通的社团活动，到某些硬核的职业活动，甚至到更加具有奇幻色彩的异世界冒险等等，不一而足。甚至从广义上来说，有不少偶像动画也满足这样的条件。</p>
+    <p>我们对于这样动画的观看体验，往往是“高于角色”的。
+      这是出于多种原因产生的结果。
+      而其中最重要的一条是，“非现实的布景”。
+      这类作品中的角色，往往有着现实中难以遇见的强烈个性。
+      同时，故事背景的设置，也往往会有强烈的有悖于观众常识的内容。
+      所以，自然会削减我们对于“这样的人和世界是真实存在”的可信度。
+      我们会将作品中的世界，视作一个遗世独立的美好桃源乡。
+      而沉浸于这个超脱现实的世界的人们，对其美好之处进行欣赏，被其美好之处所治愈，正是它想要达成的目标。</p>
+    <p>而将这个评价完全翻转过来的话，就是“持平于角色”的故事了。
+      在这样的布景之下，所有人的性格都会尽可能地真实化。
+      努力贴近现实中的人，产生两面性与矛盾感。
+      故事背景会显得现实而残酷，并且能让我们轻易地理解。
+      我们会愿意相信这样的事情，或者至少是类似的事情，是会在现实中发生的。
+      正因如此，当我们注视着这样的作品中的角色的时候，往往会产生这样的感想。
+      “这个角色的性格与我有相似之处。”
+      “如果我处于这个位置的话会如何呢？”
+      这就是相对于俯视的，平视的态度，换而言之，是一种体验。
+      正是因为这个世界被创造得如此真实，我们才能够把现实中的人和事摆放在其中。</p>
+    <p>需要反复重申的是，这两种动画类型之间没有优劣之分，正如同逻辑导向和情感导向的作品也没有优劣之分一样。</p>
+    <p>看过mygo的人，想必已经完全理解上面这段话的论述内容了吧。
+      没错，mygo正是一部极为标准的体验型作品。
+      虽然，它的前作，也就是BanG Dream系列的前几季度，是个观赏性更强的动画系列。
+      其中固然也有许多充斥现实感的桥段，不过从总体上来判断，依旧没有摆脱“卖美少女角色”这个大框架。
+      (手游姑且不提，因为这个系列本身也在迎来转变)
+      但是对于mygo这部邪道之作而言，它激进地打破了旧有的藩篱。
+      以至于，打破了“偶像动画”的概念。</p>
+    <p>mygo对我们的冲击力之强，与它是“BanG Dream世界观的正统续作”是脱不开关系的。
+      正是因为“在传统的构架中，我们从未见过这样的作品”，其产生的反差感才会如此剧烈。
+      事实上，与mygo的戏剧冲突程度接近的“百合向作品”其实并不少见。
+      但是唯独只有mygo产生了如此激烈的反响，这与其对观众习惯的背叛是分不开的。
+      不过，如果是完全撕裂系列故事的主旨核心，那种程度的改变无疑会遭致骂名。
+      正是这种“适度的背叛感”，成为了挑拨观众们神经的重要部分，也促成了这部以体验为核心的异质作品的极高讨论度。</p>
+    <p>共情为方式</p>
+    <p>事实上，一部以情感作为导向，以体验作为核心的作品，会自然引出的观看方式就是共情。
+      或者说，体验的本质就是共情。
+      但是，如果我说，对mygo的共情本质上是被刻意引导的结果呢？</p>
+    <p>这一点大体由两个方面呈现。
+      首先就是直接引导。最为典型的例子，就是由剧本创作者绫奈老师亲自负责的第三集。
+      在这一集中，我们直接以某名角色本身作为机位，观看其第一视角的“纪录片”。
+      这种角度相对于旁观的视角而言，是一种极为明显和直接的，拉进对“主角”本身的距离的手法。
+      事实上这种做法并不少见，galgame这一载体几乎全程都在运用这一手法。
+      但是将其运用在动画中，所能增加的代入感，可以说完全超脱了以舞台剧为基准的普通动画的范畴。</p>
+    <p>有一个很知名的例子，就是《One Room》这个动画系列。
+      在这个系列中，作为男主角的“我”完全没有出现过任何镜头，也没有发出任何声音。
+      正因如此，在Bilibili视频的弹幕中，经常能够看见“观众们代替主角说出台词”的行为。
+      这实际上就是一种最简单的共情模式。</p>
+    <p>但mygo的步调要激进很多——因为我们所共情的那位角色，并不是一个没有形象的人。
+      而这也引出了第二种模式，即间接引导。
+      或者说——“以其他角色作为媒介的共情”。</p>
+    <p>在mygo的故事中有一个很常见的模式。
+      那就是复数的角色，会因为同一个事件，对某一名角色产生相同的共鸣。
+      不用怀疑，这本质就是一种共情。
+      而这样的感情作为上文所提到的“线索的核心”，被隐藏在故事的各个角落。
+      而发现了这些的观众，自然会察觉到(或是隐秘地感受到)它是角色对另一名角色的共情。
+      这实际上是一种非常高明的弱引导。
+      在追随角色的心路的探索中，我们也会不自觉地身处其中，分享她们的喜或悲。</p>
+    <p>此外，需要重点指出的一点是，共情并非是“理解他人所想”。
+      恰恰相反，共情是一种极度自我指向的思考方式。
+      归根结底，我们是在使用角色们的性格或经历与自己相比较。
+      这终究会产生对不同角色的不同观感——不过这也正是直播mygo产生的讨论度的重要原因。
+      因为我们都对不同于我们的人抱有好奇之心。
+      我们观看他人的反应，察觉到全新的角度，并分享自己的见解——
+      这实际上是从观众对角色的共情，转变为了观众们互相之间的共情。</p>
+    <p>而要理解这种转变，就不得不谈起，在动画之外的内容了。</p>
+    <p>2.被观众自己拉起的幕布</p>
+    <p>我们无法创作出偏离我们自己价值观的东西。
+      换而言之，任何虚构作品，都是创作者的投影。
+      这一论述，实际上将任何虚构作品都拉出了“纯粹虚构”的范畴。
+      我们不得不从作品本身，注视到人身上。</p>
+    <p>提起mygo这部作品，除开其故事本身的优秀之外，一个极为难以被忽略的部分就是——场外的氛围。
+      自从第七集以来mygo的热度逐渐引爆，而哪怕在阶段性完结的现在，也完全没有沦为与其他作品一样彻底淡出讨论的结局。
+      可以说这是断章导致的，但根据我个人的观察，同样在故事曲折的地方断章的《水星的魔女》，并没有产生mygo这种宛如“戒断反应”一般的症状。</p>
+    <p>虽然只是个人的暴论，但我认为，导致这样结果的起因，就在于mygo原作筛选出的动画受众群体。
+      如果说在七八集，吸引到的人还完全是以“看乐子”为主要目的的观众的话，
+      那么在原作完结，并在同人社群经过了长时间酝酿之后，如今的主要受众群体已经转变成了另一种心态。
+      具体而言，自然是享受上述特征：情感、体验、共情的人们。
+      注意，并不是转变成了另一批观众，而是另一种心态。
+      观众的面向并不扁平，至少并没有我们想象中那样扁平。
+      只是，我们经常会因为不同作品而产生不同的观赏方式。
+      而对于mygo而言——并不是它的观众不同寻常，而是它的观赏方式不同寻常。</p>
+    <p>但是，请容许我先卖个关子，不说出我最为核心的推论。
+      让我们先回到分析层面，看看mygo的观众们在直播帖子里究竟在寻求什么。
+      我依然将它们总结成了三个方面：
+      戏剧性，认同感，与情绪化。</p>
+    <p>戏剧性</p>
+    <p>mygo是一部戏剧性很强的作品，换而言之，是一部“乐子很多”的作品，我想大家都不会有异议。
+      mygo的情节和台词设计毫无疑问是极具戏剧性的，甚至可以说是有意在提升话题度。
+      而戏剧性的本质为何？
+      承接上文的内容，我认为戏剧性的本质是一种背叛。</p>
+    <p>曾经有人总结过，幽默的本质是对观众期待的背叛。
+      我认为，将其扩大到整个“戏剧性场面”的程度也十分合理。
+      甚至可以说，邪道作品散发出邪道魅力的一刻，就是它碾碎观众期望，展现出完全不同的光景的那一刻。
+      对于《魔法少女小圆》来说无疑是第三集结尾的知名一幕。
+      而对于mygo来说——
+      呃，好像从第一幕开始就是了。
+      我想，除了制作团队的本人之外，应该不会有观众能够完美猜到mygo动画的全部走向吧。
+      近乎不间断的戏剧感，对观众而言，也自然会造成心境的一次次剧变。</p>
+    <p>那么，接下来是我的暴言。
+      这样的“观众的心境剧变”，本身就是一种戏剧性。
+      或许是出于共情也好，还是出于纯粹的玩乐心也好。
+      我们会因为他人心境的剧变，而感受到“对一直以来的流向的背叛”，进而产生某种近乎揭穿喜剧的包袱之后的心情。</p>
+    <p>很多直播楼的楼主，在一开始的时候的打算是“我来看看乐子”。
+      但是，看着看着，大家都慢慢转变了心态，认真对待起来。
+      直到完整经历这一段旅程之后，又成为了在台下起哄的观众的一部分。
+      这样的“伥鬼化”一般的波折，说实话，本身就很有趣。
+      亦或者说，我们在看见的就仿佛是过去的我们自己一样。</p>
+    <p>而这就牵扯到了认同感——或者也可以称其为集体感的话题。</p>
+    <p>认同感</p>
+    <p>虽然上面已经发出了暴言但接下来是进一步的暴言。
+      那就是，mygo直播贴毫无疑问是有跟风的成分在的。</p>
+    <p>不过这倒不是什么可耻的事情。
+      在mygo直播贴里最常见的一种情况就是，直播主本身就是类似动画的受众，亦或者经过他人推荐(已经经过了筛选的过程)。
+      在这种前提之下，所谓的跟风也就转变为了交换共同语言，融入集体的行为。</p>
+    <p>人类是一种无法离开集体的生物，渴求他人的认同是刻进DNA里的天性。
+      在mygo本篇里，“合群感”也是被重点论述的感情之一，有复数名角色的行为核心就是因为合群感。
+      而在这一点上，来自官方的态度，实际上是鼓励与关怀。
+      哪怕无法做到完美，甚至是存在缺陷，也不要害怕与他人交流，要积极地认同与接纳他人。
+      这可以说是成为了mygo这部动画的主旨一般的主题。
+      所以，经过精巧的故事的洗礼，能够深刻理解其内涵的观众们，自然也乐意对其付诸实践。
+      这正是体验型叙事的结果之一，即容易产生在现实中的带动作用。
+      伴随着角色们的“一辈子在一起”，理解和代入角色的观众们也盼望着“一辈子在一起”。
+      哪怕互相的观念存在差异也很有趣，因为即使所想不同，也一定能聚在一起，这一点已经成为了我们所有mygo观众的基础共识。</p>
+    <p>这种互相认同的情绪正是mygo同好的聚集会给人产生“温暖”“热闹”之类氛围的根本原因。
+      作为发起者的直播主向已经成型的外界环境追求认同，
+      而每一个享受这一环境氛围的观众则会作为环境给予认同。
+      以剧情为媒介，双方交换着对动画感想的过程，也正是互相倾诉自己观点，寻求对方同意的过程。
+      可以说，这是一个不断强化的正反馈行为。
+      大家的玩笑话“长颈鹿越多，长颈鹿越多”其实就是这么一回事。</p>
+    <p>所谓的同人社群，其本质也可以说正是基于这样的“追求认同-给予认同”的循环。
+      其重点在于，每个人同时都是付出者与收获者，由此才会产生积极的互相支持的良性循环。
+      mygo的同人创作本身可以说是相当火爆的，这与创作者的数量和该群体共同追求的氛围都有关。
+      而直播楼这一行为，可以说是一种门槛更低的“同人创作”。
+      而且，因为其直接基于动画这一第一手信息，所以甚至比起必然掺杂作者改编的二次创作，更加能引起观众的认同。
+      因为，我们或许对角色的解释各不相同，但一定都因为故事中的某一幕而被触动过。
+      这也正是情感导向的作品能产生的独有凝聚力，是一种不需要声张言语，就能自然理解的共识。</p>
+    <p>情绪化</p>
+    <p>既然都提到了“触动”，那么终于可以回归到mygo直播帖子的最大特征了。
+      那就是，似乎所有人的状态都很情绪化，甚至可以称之为不作掩饰的真诚。</p>
+    <p>在如今的世界里，情绪化可以说是一种危险的行为。
+      因为情绪化往往象征着“失去自控力”。
+      在日常生活中，失去自控力往往会暗示着破坏社会规则，对他人产生麻烦之类的后果。
+      因此，情绪化的体验往往是私密的。
+      我们更倾向于在不面对社会，在亲密的人面前，或者独自一人的时候，才展现出自己的情绪。
+      换而言之，我们在展现出自己的情绪的时候，意味着面前的人是亲密的人。</p>
+    <p>而这些尽情宣泄情绪的mygo直播帖子，可以说默认了其受众的亲密性与安全性。
+      这是一种给予前文所提到的集体认同感所产生的共识。
+      也就是，“喜欢看mygo的一定不会是坏人”。</p>
+    <p>就像每一段都指出的那样，鼓励情绪的释放也同样是mygo所试图传达出的内容之一。
+      作为乐队的MyGO!!!!!，其歌词的鲜明直白，配合上总是意味着不去矫饰的朋克摇滚这一音乐形式，一同构成了极为干脆的情绪传递。
+      在晦涩暧昧的主要剧情之中，一反常态直白宣泄情绪的Live可以说就是被万叶衬托的鲜花。
+      可以说，对于愿意灌注情绪观赏mygo这部作品的人而言，我们的内心是向其敞开的。
+      这样的体验，对于不得不避免情绪化才能维持正常生活秩序的我们而言，可以说是缺位的。
+      mygo提供的正是这种接近于挚友的作用的私密体验，但是这一体验是有时限的。</p>
+    <p>随着mygo动画的结束，能够敞开心灵宣泄情感的对象也就消失了。
+      碍于维持社群的需要，对于涉及核心感情之外的内容讨论又会回归到我们那种熟悉的拘谨状态中。
+      但我们其实都在希望，那种自由展露情绪的窗口能够一直持续下去。
+      而mygo直播帖子，正是一个这样的机会。</p>
+    <p>对于每名新观众而言，我们都会期待曾经降临在我们身上的那种直白展露感情的过程再度出现。
+      与那名观看者的心境共情，我们便能够再度回到被压抑已久的，使用真挚的感情互相触碰的时刻。
+      甚至于，理解他人的内心本身也是一种能让我们感到充实的娱乐活动。</p>
+    <p>话题深入到这里，终于能够开始解答我们最初的设问了。</p>
+    <p>我们对mygo的观赏方式是什么？
+      当我们在看直播MyGO的时候，我们究竟在看什么？</p>
+    <p>我对其的答案是。
+      “为了让我们成为我们的歌”。</p>
+    <p>mygo是破除对沉重的现实感情隔阂的促进剂。
+      以出色的故事逻辑为骨架，深入到角色的情感之中，用共情的方式设身处地去体验。
+      我们因这之中的戏剧性而卸除防备，因情绪化而变得真诚，最后又通过认同感而相互聚集。
+      在彻底破除人格面具的聚会之中，观众们仿佛在经历一场轻度的集体心理疗愈一般。</p>
+    <p>我认为，这正是mygo这部作品能够维持其良好的社群到今天，而且仍在一直延续下去的根本原因。</p>
+    <p>我们只是想成为人类，想成为自己。</p>
+    <p>3.从纸面抬起头来的人们</p>
+    <p>关于mygo本身的论述已经结束了，接下来是惯例的私货时间。
+      如果只是对mygo这部作品有兴趣的人可以读到这里为止。
+      接下来的行文也会更散一点，就当是我的有感而发吧。</p>
+    <p>虽然这个话题有些冒犯……
+      不过上文提到的那个传奇帖子里，直播主和观众们的确已经超出了刚才所论述的同好的界限。
+      我们不得不去寻找一些新的理论来解释这一现象。
+      所以，这里涉及到的已经与mygo无关了，是纯粹的，人与人之间的事情。</p>
+    <p>“为什么这样的奇葩帖子能够出现？”
+      我觉得其原因之一，或许是适度的距离感。
+      虽然在上面描述得好像大家面对陌生人就只会压抑自己一样，
+      但其实在网络进行情感咨询是很常见的事情。
+      这是因为，我们对网络的匿名性能够产生安全感。</p>
+    <p>但是，匿名性是一把双刃剑，它同样也会产生恐惧。
+      因为我们都不知道网络对面的人的性格如何，会怎样看待自己。
+      心思敏感的人往往会害怕在人群中展示自己，阐述自己的观点。</p>
+    <p>那么，对于这样的人来说，最合适的展示环境是什么呢？
+      首先，匿名性足够高，以致于不会影响到现实中自己的人际关系。
+      其次，安全性足够高，最好整个社群里都是可以去相信的对象。</p>
+    <p>是不是发现了什么？
+      没错，前文所提到的，因认同感而形成的有共识的团体。
+      它恰好满足值得信任，值得托付内心这一大前提。</p>
+    <p>正因如此，我们才会在对一部动画的感想中，积极谈论只属于自己的现实生活的话题。
+      而因为载体是动画，所以“用动画的桥段作媒介”是一种非常自然而克制的方式。
+      诸如“我能理解XX角色”，“我经历过类似的XX桥段”，“这简直说的就是我”……等等。
+      表面上这是在谈及动画，实际上都是在隐晦地谈及自己。</p>
+    <p>而观众们，也乐于使用动画作为媒介来来隐晦地……享受他人的关系性。
+      将现实中的人物比作动画角色，反而可以说是一种安全的保护手段。
+      在带来一定扭曲失真的同时，规避了“这是对现实人际关系的取乐”产生的羞耻感。
+      不过这样做，毫无疑问是不尊重意志被扭曲的本人的。
+      所幸那个楼层的两位当事人都很大度，才让这场狂欢延续了下去。</p>
+    <p>说了这么一大通，我到底是想表达什么呢？
+      或许是一个态度，或者说一个信号。
+      或许对于持续享受mygo到今天的观众而言，我们早就有了超越直面之内的被创作的内容，而去互相面向现实中的对方的基础。
+      只是碍于“我们是因为作品才联系在一起的，没有其他的共性”这一枷锁，才导致我们不得不采取隐晦的方式。</p>
+    <p>当然，试图打破这一枷锁在目前而言是完全不可能，也不够理性的。
+      只要NGA还是公共论坛，最基础的自重就还是必要的东西。</p>
+    <p>但是，像这样形成的类似“基础好感度”之类的东西，无疑能够成为进一步建立联系的基础。
+      所以，虽然只是类似于我的空想一般，而且还是十分激进的倡导。
+      不过，可以的话就勇敢地去交朋友吧。</p>
+    <p>其实我们本来是不需要这样的作品就能够互相以心传心的。
+      只是名为现实的阻隔实在过于强大，导致偶尔出现的这样一部能够穿透所有人的心之壁的作品，才会衍生出如此庞大的后续效应。
+      不过，既然我们都能够为一部讴歌人类的故事而感动，那么进一步去面对人类，或许也不是那么困难的事情吧。</p>
+    <p>mygo就像是万花筒，我们每个人都能在其中看见无数他人的所投射的内心。
+      但其实，哪怕取下那一串镜片，我们也依然能够清楚地看见对方的样子。
+      就像我愿意坦率地为那两位朋友之间的关系感到羡慕，并送上自己的祝福一样。</p>
+    <p>不用为演出的谢幕而哀伤。
+      因为我们自己就是舞台。</p>`,comment:`<p>“不用为演出的谢幕而哀伤。
+      因为我们自己就是舞台。”</p>
+    <p>楼主的文章看了两遍，写的太好了，我肯定写不出这样的文章，但是楼主的每一句话都说在心里！</p>`}],Z=[{floor:"9",username:"kngchau",time:"2023-11-26 14:29",reply:"",comment:"<p>哇原来看别人直播是这种感觉吗？爱了嘻嘻！</p>"},{floor:"16",username:"kngchau",time:"2023-11-26 14:34",reply:`<p>例行提示:</p>
+    <p>1.前三集建议一口气看完哭笑</p>
+    <p>2.第4集和第7集ed之后有Cpart，不要错过哦</p>
+    <p>3.校验资源完整性，避免比如朋友只给了前9集资源看不了第10集之类的惨状发生</p>`,comment:"<p>我总感觉你们在针对我</p>"},{floor:"27",username:"kngchau",time:"2023-11-26 14:36",reply:`<p>一开始不喜欢粉毛来着，第一集快看完了反而觉得这妹子也挺好。但是为啥这片子我感觉看的不是动画而是三次元剧集啊...</p>
+    <p>以及老看到猴区说罚你听春日影这歌到底咋回事儿啊，很难听么？</p>`,comment:`<p>这还真有三次元剧集的意思</p>
+    <p>不过你继续看啦！非常精彩哦！</p>
+    <p>(我憋不住笑了哈哈哈哈</p>`}],H=[{floor:"45",username:"kngchau",time:"2023-11-29 21:12",reply:`<p>使用b站官方字幕版，其中10-13话，保证时长不变，内容全部换成了非关键帧，并且尽力调整到正常大小(2～300m，最麻烦的一步)，以达到最好的伪装。用其来进行安利，享受对方抓耳挠腮的样子。</p>
+    <p>免责声明：对使用此资源进行安利导致的一切后果，本人概不负责</p>
+    <p>效果图如下，楼下放链接</p>
+    <p><img src="/image/4079.jpg" style="zoom:50%;" /> </p>`,comment:`<p>你们太离谱了啊喂！！！</p>
+    <p>我回去看了一眼她最早给我的资源，果然后面几话时长都是一样的！！</p>
+    <p>当时的我怎么这么蠢啊！！！</p>
+    <p>啊气死我了！</p>
+    <p>又把她拽过来收拾了一顿</p>`}],W=[{floor:"14",username:"kngchau",time:"2023-12-07 15:44",reply:`<p>你好，我是无线耳机。</p>
+    <p>我就是那个因为单纯想画耳机线绷开的样子而下意识画了这种构图然后被造谣成男同的画师</p>`,comment:`<p>哇哦画师大佬，你不会跟男性朋友两个人像图里那样听过歌吧！</p>
+    <p>哈哈哈哈哈天呐，好想听(磕)你们的故事</p>`},{floor:"20",username:"kngchau",time:"2023-12-07 16:02",reply:`<p>实际上也是很久以前的事情。不过画面很难看，只是单纯的滑稽喜剧罢了。</p>
+    <p>大概就是春游在大巴上看口袋妖怪的剧场版电影。我记得当时满头臭汗两个人也不想凑一起，耳机线恨不得直接从鼻子那儿把我的脸勒成两半。</p>
+    <p>只能说小时候脑子有时候就是会那样一卡，本来戴反了脑子没动过来就各自带到外面的耳朵上去了。</p>
+    <p>
+      我想如果画出来的话大概是用浦泽直树画大叔的笔调去画，画两个鼻孔形状清晰的小男生挤在一起看小电影。其中一个眼镜恨不得飞到头上去，眼睛架子上还卷着纸筒防止汗湿；另一个嘴边还留着薯片残渣，手肘恨不得冲到别人颈动脉上去。就是这样打打闹闹的记忆。
+    </p>
+    <p>你要说能嗑，我的建议是大概当事人回想起来就是那些“啊这就是青春啊”的感觉，真要嗑那估计是有那种男生打完球的汗酸味儿的，真不建议</p>`,comment:`<p>哈哈哈哈原来是这样！</p>
+    <p>不过那样的两个男孩子之间的友情也很美好呀！</p>
+    <p>不过我还是挺喜欢那样子戴耳机的，戴在靠近的那一侧就没办法说话了呀，戴在远离的那一侧可以在耳朵边说话，把头放在对方身上也不会压到线。虽然画师大佬可能并不想代入自己想象这样的场景</p>
+    <p>我错了hhh</p>`},{floor:"21",username:"kngchau",time:"2023-12-07 16:12",reply:`<p><del>chaurin怎么跑我这来了</del></p>
+    <p>chaurin，这爱素感觉还能看的过去吗，有真实感吗</p>`,comment:`<p>写得超好哦！而且感觉没有过于严重的OOC吧</p>
+    <p>同人文为什么要问我有没有真实感呀喂！</p>
+    <p>不过话说第十话那里爱音没有摸soyo脸吧，只是帮忙撩一下头发而已吧！虽然不是舞台妆，但是soyo出门之前肯定是化了妆的，要是被爱音摸一把脸再上台live大概会当场把她打死</p>`}],F=[{floor:"194",username:"kngchau",time:"2023-12-07 14:56",reply:"",comment:`<p>哇好精彩的京吹直播呀</p>
+    <p>楼主能刚看第一集就想到久美子是缺乏动力、缺乏认真对待事情的热情真是很细腻啊！京吹特别适合你这种观众哦！</p>
+    <p>当然京吹里的女女关系，我感觉都是比较正常的女生之间的关系啦，不是说没有百合成分，我是说根本在国内大学里(高中社团活动密度太低啦！)的女生关系也可以有这种程度的那种，真实感</p>`},{floor:"222",username:"kngchau",time:"2023-12-08 08:30",reply:"",comment:`<p>夏纪学姐，我超喜欢她的！</p>
+    <p>至于其他的，楼里现在说这个不合适哈，等楼主看完跟楼主一起聊~</p>`},{floor:"223",username:"kngchau",time:"2023-12-08 08:37",reply:"",comment:`<p>老师后面的故事是很多的，但是我只能说，到现在为止，代入姑娘们的视角，嘴一句老师不负责任是没有问题的。</p>
+    <p>至少站在当下(第3话)的立场上：他是乐团指导，可不仅仅是技术指导，学校社团不是因为利益和工资绑定在一起的商业乐团，不是只指导技术就行的。在让北宇治吹奏部变成一个高质量乐团之前，他首先得让它变成一个团结的乐团。</p>
+    <p>当然了，这是一件非常困难的事就是了</p>
+    <p>三次元一点讲，在有辣么多妹子的一个团体里，没有小团体、没有不和谐、没有阴阳怪气和抬杠简直就是不可能的，北宇治吹奏部已经足够美好了，至少没有真的有坏心思的姑娘</p>`},{floor:"269",username:"kngchau",time:"2023-12-08 21:25",reply:"",comment:`<p>可以哟！等楼主完结大家一起聊！</p>
+    <p>(不会等楼主完结下一季就开播了吧哈哈哈哈</p>`},{floor:"272",username:"kngchau",time:"2023-12-08 21:33",reply:"",comment:`<p>我是期待楼主的评价的哟！</p>
+    <p>京吹女孩子们的形象都非常立体，夏纪学姐也是主要人物了，风格十分鲜明，我觉得完结的时候你想不给她写个长评都难的</p>
+    <p>而且我现在莫名感觉夏纪有点像爱音</p>`},{floor:"367",username:"kngchau",time:"2023-12-11 22:32",reply:"",comment:`<p>这句 黄前さんらしいね 我的理解是这样的</p>
+    <p>其实日本妹子很多时候在说 xxらしいね
+      说得不是“真有你的风格(褒义)”，而是作为潜台词的“就你跟大家不一样！”。所以这句话跟后面的名台词“久美子真是XXXX呢”是一个意思，在明面上都是贬义的，当然实际上当然是丽奈小姐被久美子这特殊的性格俘获了。所以这里有点那种，老朋友之间对于朋友某个不好的举动的一句“你还是老样子啊”的调侃，又真的带着点对这种“老样子”的欣赏。语无伦次了……大概是这种感觉
+    </p>`},{floor:"368",username:"kngchau",time:"2023-12-11 22:41",reply:"",comment:`<p>是吧！这里就很奇怪！明明中学的时候胸发育得太好才是值得苦恼的地方吧！</p>
+    <p>
+      反正我高中的时候经常因为胸比同龄女生大很自卑，真的是很自卑。因为胸部作为女生最明显的第二性征，一眼就能看出来，然后有很多惹人讨厌的男生甚至包括一些讨厌的女生，对于胸大的妹子总会造一些特别讨厌的黄谣，大概就是荡妇羞辱吧，以至于到后来我自己都很会怀疑我是不是真的是个坏女孩。我高中因为这件事内耗了整整三年，有的时候故意买小一号的内衣就是为了让胸看起来小一点(虽然后来被我妈制止了)，走路的时候也喜欢含着胸走路，甚至有点驼背，哪怕现在早就看开了这些破事，我还是不太喜欢穿紧身毛衣之类的衣服，全都是那个时候养成的习惯。
+    </p>
+    <p>所以我真的超级奇怪，怎么会有妹子追求胸大的，京吹开头就是这个，我差点因为这个弃番，感觉是个男编剧yy出来的东西，后来发现也并不是</p>
+    <p>大概日本的校园环境比国内好吧……</p>`},{floor:"372",username:"kngchau",time:"2023-12-11 23:20",reply:"",comment:`<p>哈哈哈哈，没有说跟你的理解冲突的意思哦，就是给你补充一个角度！因为超级喜欢这个镜头所以印象深刻觉得得说两句哈哈哈。</p>
+    <p>
+      至于胸大的事，早就已经无所谓啦！那个时候年纪小，总是把别人的评头论足看得很重要。但是对这种黄谣，其实你又不能真的去证明自己只吃了一碗粉。自己知道自己是个洁身自好的姑娘就好了呀，管别人干什么！这些年友人A也鼓励我试着买一些显身材的衣服啦
+      <del>(它们因此免于被她抢走的风险)</del> ，体态我也早就刻意矫正回来啦，一切都过去了！
+    </p>`},{floor:"373",username:"kngchau",time:"2023-12-11 23:21",reply:"",comment:"<p>有一说一平胸确实很方便呀，有些衣服比如衬衫就真的只适合平胸妹子穿，还是经常很羡慕的</p>"},{floor:"375",username:"kngchau",time:"2023-12-11 23:24",reply:"",comment:`<p>啊！原来是这样！感觉有时间要去补一下原著小说了！</p>
+    <p>原来久美子渴望胸部发育还带着一种“胸部变大就是变成大人了”的情结在里面的！这样我就完全理解了！感觉久美子这种家庭的女孩子，就是会很自然地憧憬姐姐，渴望长大，渴望变成姐姐或者学姐那样的人，渴望成长和成熟。</p>
+    <p>谢谢你！！</p>`}],J=[{floor:"4",username:"kngchau",time:"2023-12-13 23:11",reply:"",comment:`<p>我要提名那个胖次分析帖！真的很印象深刻哭笑</p>
+    <p>不过不会发链接，谁帮我上个链接吖</p>`},{floor:"13",username:"kngchau",time:"2023-12-13 23:41",reply:`<p><a href='https://bbs.nga.cn/read.php?tid=37832469' target='_blank'
+        class='url'>https://bbs.nga.cn/read.php?tid=37832469</a></p>
+    <p>这个帖吧，确实厉害</p>`,comment:`<p>哈哈哈对对对就是这个！</p>
+    <p>(话说我不会被误会成什么奇怪的人吧</p>
+    <p>考虑到NGA的性别比例，是不是最好科普一下：这个帖的胖次真的是图一乐哈，大部分正常姑娘穿的都是很普通的三角胖次，蕾丝蝴蝶结啥的可能都不会有，毕竟胖次上有个蝴蝶结极有可能在小腹压印来</p>
+    <p>平时也真不会有人在意胖次的款式和花色啦，舒服是最重要的，如果你们看到妹子穿一条非常精美的胖次，大概率她是有备而来</p>`},{floor:"19",username:"kngchau",time:"2023-12-13 23:56",reply:"<p>三角的吗，不能是平角的吗</p>",comment:`<p>有没有一种可能，平角内裤它没办法贴姨妈巾</p>
+    <p>当然习惯用棉条的妹子可以随意</p>
+    <p>反正据我的观察，我没见到有穿平角内裤的姑娘，或者大家买了平角内裤也都是当安全裤穿的</p>`},{floor:"25",username:"kngchau",time:"2023-12-14 23:01",reply:"<p>平角裤也可以贴姨妈巾的，虽然没有三角那么稳，但是影响也不大。穿平角裤的女生还是有不少的，还是个人习惯差异吧</p>",comment:"<p>原来如此，是我身边统计学了，毕竟我坦诚相见过的姑娘也不多</p>"}],Q=[{floor:"141",username:"kngchau",time:"2023-11-29 22:50",reply:`<blockquote>
+        <blockquote>
+          <p>第九集有立希和素世的表白戏，可以期待一下</p>
+        </blockquote>
+        <p>你们也要亲密接触互诉衷肠？</p>
+      </blockquote>
+      <p>那确实是亲密接触，互诉衷肠，两个人都贴在一起了</p>`,comment:`<p>你们这些人啊</p>
+    <p>这已经变成梗了是吧，还是说本来就是梗</p>`},{floor:"396",username:"kngchau",time:"2023-12-02 23:23",reply:"",comment:`<p>其实你觉得意外的不意外的地方都是伏笔哦！不知道楼主场外的不涉及剧透的信息了解了多少，但是祥子是很重要的人物已经很容易就察觉了吧！</p>
+    <p>至于春日影分锅嘛，毕竟soyo是旗帜鲜明地反对过唱春日影的，所以把锅全分给她应该也不合适吧</p>
+    <p>其实我当时看的时候是有点觉得这把是睦打的有问题，但是睦肯定也想不到她们会唱春日影</p>
+    <p>我觉得大概率这里就是一个每个人都没错，但是所有人都受伤的世界达成了</p>`}],Y=[{floor:"60",username:"kngchau",time:"2023-12-07 14:46",reply:"",comment:`<p>这个问题我愣了好久……</p>
+    <p>
+      仔细想想，主要是现实生活中，很少会有人在不太熟的人面前表现出害羞或者窘迫吧。如果真的有在害羞，大概率也会是抱着胳膊低着头自己脸红，或者可能玩头发玩衣角，你能看出来人家在害羞主要表现还是眼神躲闪吧。熟人面前就不害羞了，对面真的笑话你冲上去打一顿就是了
+    </p>
+    <p>我倒是感觉平时会做这个动作，但是是在想事情的时候会下意识地这样，图上这种还真没有</p>`}],$=[{floor:"17",username:"kngchau",time:"2023-12-07 15:27",reply:"",comment:`<p>都接受得了呀，现实里哪个女孩子没点毛病哭笑</p>
+    <p>不如说，楼主说得这几条，一个真实的女孩子至少得中一条吧哭笑</p>
+    <p>虽然MyGO团里的姑娘们放在二次元算是人人都有点小问题，放现实里那可都是不可多得的好姑娘呀！</p>`}],pp=[{floor:"115",username:"kngchau",time:"2023-12-07 21:42",reply:'<p><img src="/image/115.jpg" style="zoom: 50%;" /> </p>',comment:`<p>啊这，我突然发现楼主截到的这一张的构图，这个镜子的分割线，好有深意的一帧！</p>
+    <p>MyGO果然是常看常新啊！</p>`}],ep=[{floor:"7",username:"kngchau",time:"2023-12-08 21:31",reply:"",comment:`<p>睦从一开始就在用七弦吉他，七弦吉他一般是加了一根低音弦的电吉他，主要用途就是重金属、摇滚这些风格(顺便一提海玲一开始就是五弦贝斯)。顶替了睦位置的爱音就是六弦吉他，当然爱音小菜鸟一上来就玩七弦琴也玩不转。</p>
+    <p>至于她喜不喜欢暂且看不出来，不过没记错的话几次给到睦爬格子的镜头速度都快的吓人，所以睦的技术加入ave mujica这种风格的乐队是毋庸置疑适合且优秀的，MyGO反而有点大材小用了，毕竟MyGO就突出一个草台班子</p>`}],mp=[{floor:"22",username:"kngchau",time:"2023-12-09 22:40",reply:"",comment:`<p>还真不是个特别小的问题</p>
+    <p>我翻了翻，初华真的全片很少穿露腿的衣服。校服短裙穿裤袜，私服是长裙，在sumimi是长裙，在ave mujica是裤子。感觉真的是设定的一部分。</p>
+    <p>其实生活中是有很多女孩子不喜欢露腿的，有的单纯是害羞或者保守，大部分都是觉得自己腿型不好看。美少女乐队企划应该不会存在腿型不好看这种设定 <del>(我要有她们的身材天天超短裙热裤出门好吧)</del>
+      ，但是总不能真的是保守吧，保守如soyo都穿短裙的。这个服装口味设定还蛮奇怪的</p>`},{floor:"25",username:"kngchau",time:"2023-12-10 00:05",reply:"<p>所以楼主S和友人A平时穿什么私服呀一般？你们怎么评价mygo妹子们的私服呢？(感觉可以单开一贴水？</p>",comment:`<p>我平时就各种裙子为主吧，视天气搭大衣和羽绒服，夏天努力减肥到90斤左右会光腿或者短裤，如果摆烂了天气不太热就穿条丝袜那样</p>
+    <p>友人A一年能穿300天牛仔裤，就这样都搭不好上衣和鞋子，衣品真的非常感人，一般我都不让她自己选衣服的</p>
+    <p>MyGO妹子们私服都比较普通正常吧，祥子爱音soyo那几条裙子感觉我衣柜里都有同款的样子</p>
+    <p>
+      虽然你们又有说我在嘴爱音了，可是爱音那条短裙真的不如soyo和祥子的两条裙子的穿搭好看来着……灯的短裤+套头衫挺朋克，但是总感觉她这种性格的妹子，在国内哦，很少会穿这么短的短裤啊。至于立希……我其实很想吐槽她为什么一个鼓手老是穿短裙live，我们鼓手上台都是老老实实穿长裤的，反正就算夏天舞台上也有空调，再不济穿短裤嘛，短裙真的很容易走光……
+    </p>`}],op=[{floor:"50",username:"kngchau",time:"2023-12-10 22:12",reply:"",comment:`<p>其实我觉得还是13话下季预告的意味太明显了，删掉ave mujica的live，故事停在ave mujica成立，这就是个非常完整的故事了，用留白的方式处理祥子的问题作为结尾其实同样是非常精彩(而且私心认为更加精彩)的作品。
+    </p>
+    <p>再往前推，其实soyo向灯表白我永远忘不了CRYCHIC，爱音向灯表白决定试一试一辈子，这些情节放在MyGO的最后那场live之前，然后以live结尾，MyGO的故事也非常完整，我也会觉得同样精彩。</p>`}],rp=[{floor:"80",username:"kngchau",time:"2023-12-12 21:44",reply:"",comment:`<p>这楼里……</p>
+    <p>好多让我十分震撼的帖子……</p>
+    <p>各种意义上都很震撼</p>`},{floor:"82",username:"kngchau",time:"2023-12-12 22:55",reply:`<p>草，这不是chaurin小姐该来的地方啊瞎</p>
+      <p>算了，欢迎来到，真正的猴区</p>
+      <p>(以及，我很想听到茶屋小姐对这些帖子的评价</p>`,comment:`<p>你们怎么对我的称呼都变成茶屋小姐了喂，这ID就是用我俩姓名首字母乱打出来的，你们也太离谱了</p>
+    <p>评价，这很难评</p>
+    <p>但是感觉emmmm，怎么说，一些男性坛友确实对女孩子的了解太少了</p>
+    <p>有点可爱</p>
+    <p>不过其实还好啦，比如堀与宫村那个帖子，我其实也挺疑惑的。我看的时候感觉纯粹就是疼的……女孩子第一次尤其加上心理紧张的确会非常疼的，咬男友带着点报复带着点止痛很正常的吧？但是一般咬肩膀那里多一点吧，怎么咬到颈部正后方是我疑惑的点
+    </p>
+    <p>种草莓也感觉不会种到后颈那儿去</p>
+    <p>另外mygo内裤分析那个真是有震撼到我</p>`}],tp=[{floor:"9",username:"kngchau",time:"2023-12-15 00:16",reply:"",comment:"<p>什么新概念补番，请楼主务必先说说你脑补的剧情是什么，大家再跟你讨论蓝毛退团的事</p>"}],np=[{floor:"50",username:"kngchau",time:"2023-12-20 18:43",reply:"",comment:`<p>我的天呐，这个粉毛设计师是非要不可吗？她是怎么能做到这么丑的各有千秋的</p>
+    <p>这就是时尚么.jpg</p>
+    <p>快叉出去吧</p>`},{floor:"52",username:"kngchau",time:"2023-12-20 19:12",reply:"<p>说起来我比较想吐槽，她们怎么演出服还戴贝雷帽，这不蹦跶两下就掉了</p>",comment:`<p>哈哈哈哈，不会哦，我之前演出还戴过来着。贝雷帽可以自己缝夹子，有的买来就有，多缝几排夹在头上，非常牢的！你不然以为大街上姑娘们的贝雷帽都是反重力的么</p>
+    <p>另外，有那种跟贝雷帽连在一起的假发，保证你头发蹦掉了帽子也不会掉</p>`}],ap=[{floor:"5",username:"kngchau",time:"2023-12-25 23:36",reply:"",comment:`<p>我就不一样了，一刷之后长达一周时间都没敢再点开</p>
+    <p>有一天重刷哭过之后一怒之下把资源删了(后来又找朋友要回来了</p>
+    <p>对年轻人确实危害不可估量，那两天去上课人家都问我没出什么事吧</p>
+    <p>这事我怎么跟你们解释呢.jpg</p>`},{floor:"17",username:"kngchau",time:"2023-12-26 00:03",reply:`<p>就是你吧</p>
+      <p>第九集被寸止</p>`,comment:`<p>啊啊啊啊！怎么我因为奇怪的事情出名了</p>
+    <p>(朋友刚挨的这一脚记在你头上</p>`},{floor:"19",username:"kngchau",time:"2023-12-26 00:16",reply:`<p>谢谢，已经脑补出来和友人A一起躺在床上刷手机然后看到这条回复恼羞成怒一脚踹过去的画面了</p>
+      <p>你今晚睡沙发去()</p>`,comment:"<p>我家本来就有给她睡的房间！她就没去睡过几次</p>"}],lp=[{floor:"92",username:"kngchau",time:"2023-12-26 14:29",reply:"",comment:`<p>好帖赞！！！</p>
+    <p>我162，出门一看大街上全都是高我一头还多的姑娘，一个个170+大长腿，穿裤子穿裙子都好看</p>
+    <p>狠狠自卑了，还被前男友不止一次嫌弃过矮，以前跟他逛街我都得穿7cm+的高跟鞋和短裙，每次回来都磨得脚疼</p>
+    <p>看这个帖子得到了些许安慰(并没有啊魂淡，我又不在日本)</p>`},{floor:"96",username:"kngchau",time:"2023-12-26 14:50",reply:`<p>茶屋小姐姐，162虽然的确不能说高吧，但是真的说不上矮。</p>
+      <p>另外，姐姐你别是被前男友PUA了啊！</p>
+      <p>你要不认真回想一下自己是什么时候开始特别怨念自己的身高的？是真的自己本来就很在意，还是跟前男友在一起之后才特别在意的</p>`,comment:`<p>额……不会吧……？</p>
+    <p>我是一直都觉得自己不高，搭衣服不如高个子妹子那么方便……但是……</p>
+    <p>好像还真是被前男友屡次嫌弃之后才特别在意的，我也是那时候开始买很高跟的高跟鞋和40cm以内的裙子的，我其实真不喜欢穿高跟鞋，还因为这崴了好几次脚……</p>
+    <p>啊……嗯……不过应该也不算PUA吧？(心虚)</p>
+    <p>当时我也真觉得身高有点儿配不上他，跟他出去总要让他拿的出手吧，他说他前女友都170+的</p>`},{floor:"109",username:"kngchau",time:"2023-12-26 20:21",reply:`<p>《让他拿的出手》</p>
+      <p>真的生气了，希望任何人，不要无意义的自卑，即使如此，努力的目的也永远是提升自己，而不是所谓的无聊的虚假迎合与讨好</p>`,comment:`<p>我错了我错了，我已经被某人因为这事阴阳了一下午了</p>
+    <p>谢谢关心我的楼友啦！其实我从中学的时候经历了一些事情一来就一直有点不太自信，所以被关系亲密的人说了就会很在意。</p>
+    <p>大家教训得是！别人爱说什么什么让他说去呗</p>
+    <p>而且我反正比日本平均还是高的</p>`}],ip=[{floor:"389",username:"kngchau",time:"2024-01-04 11:12",reply:"",comment:"<p>BANG DREAM It‘s MyGO!!!!!</p>"}],sp=[{floor:"1",username:"kngchau",time:"2024-01-09 15:11",reply:"",comment:`<p>就，开玩笑归开玩笑，我真觉得这话还好吧</p>
+    <p>抛开剧情不谈，三次元里</p>
+    <p>首先，真的会有一个人重要到你什么都愿意为TA做呀；其次，有的时候说这话的意思其实是“如果是我的错造成了现在的情况，我可以做出任何让步，不要让事态更糟糕了”的意思呀！</p>
+    <p><del>难道是我有问题？</del></p>`}];p.mock("/api/about","get",{code:200,message:"success",data:["本站为我的练手之作，虽然现在的主题为Acha，但以后遇到什么有意思的东西都可能塞进来","一点儿样式都没写（没有美工妹子，摆了，默认的也不错","使用了Vue3+ElementPlus的静态网站，Pinia用于状态管理，Mock.js模拟网络请求（有生之年一定会用SpringBoot写一个配套的后端（确信（所以服务器谁来赞助一下（暗示","部署在GithubPages上，并通过DNS关联了本域名achastory.cn","最后更新时间：2024-10-21"]});p.mock("/api/events","get",{code:200,message:"success",data:[{time:"2023/6/29",title:"动画 BanG Dream! It's MyGO!!!!! 正式播出",content:"但此刻debuff拉满的mygo还如同每个季度都会刷新的杂鱼偶像番"},{time:"2023/7/27",title:"为什么要演奏春日影！",content:"第七话的播出正式拉开了mygo动画的“疯狂时代”"},{time:"2023/11/19",title:"天使茶屋降临NGA",content:"用户kngchau在NGA论坛开贴：被朋友拉来直播mygo了……"},{time:"2023/11/21",title:"长颈鹿集会正式成立",content:"没有人会想到，这么一个为了看直播而成立的群聊，会成为chaurin的忠实后援团"},{time:"2024/1/11",title:"chau与群友的私信+1",content:"至此acha第一季堂堂完结"},{time:"2024/2/9",title:"天使茶屋降临长颈鹿集会",content:"令人难忘的新年开始了"},{time:"2024/9/28",title:"AchaStory企划正式开始",content:"起码新建了文件夹"}]});p.mock("/api/posts/letters","get",{code:200,message:"success",data:T});p.mock("/api/steps","get",{code:200,message:"success",data:[{title:"step1",description:"不反感3d/乐队/轻百合/女女关系性"},{title:"step2",description:"观看动画BanG Dream! It's MyGO!!!!!并非常喜欢"},{title:"step3",description:"化身长颈鹿四处寻找食物时，找到了NGA茶楼"},{title:"step4",description:"刷完了茶楼并找到了长颈鹿集会"},{title:"step5",description:"补完了‘茶史’(包括但不限于acha第一季/dlc/夏纪rp)"},{title:"step6",description:"最后因缺乏食物天天翘首以盼天使茶屋降临"},{title:"step7",description:"等待Ave Mujica的到来更是折磨"}]});p.mock("/api/books","get",{code:200,message:"success",data:S});p.mock("/api/posts?id=38725142","get",{code:200,message:"success",data:L});p.mock("/api/posts?id=38498128","get",{code:200,message:"success",data:I});p.mock("/api/posts?id=38466050","get",{code:200,message:"success",data:q});p.mock("/api/posts?id=38447162","get",{code:200,message:"success",data:K});p.mock("/api/posts?id=38489268","get",{code:200,message:"success",data:X});p.mock("/api/posts?id=38511897","get",{code:200,message:"success",data:Z});p.mock("/api/posts?id=38533940","get",{code:200,message:"success",data:H});p.mock("/api/posts?id=38556702","get",{code:200,message:"success",data:W});p.mock("/api/posts?id=38583875","get",{code:200,message:"success",data:F});p.mock("/api/posts?id=38682966","get",{code:200,message:"success",data:J});p.mock("/api/posts?id=38525616","get",{code:200,message:"success",data:Q});p.mock("/api/posts?id=38614846","get",{code:200,message:"success",data:Y});p.mock("/api/posts?id=38621628","get",{code:200,message:"success",data:$});p.mock("/api/posts?id=38602699","get",{code:200,message:"success",data:pp});p.mock("/api/posts?id=38635884","get",{code:200,message:"success",data:ep});p.mock("/api/posts?id=38644113","get",{code:200,message:"success",data:mp});p.mock("/api/posts?id=38653551","get",{code:200,message:"success",data:op});p.mock("/api/posts?id=38612927","get",{code:200,message:"success",data:rp});p.mock("/api/posts?id=38695577","get",{code:200,message:"success",data:tp});p.mock("/api/posts?id=38740533","get",{code:200,message:"success",data:np});p.mock("/api/posts?id=38803594","get",{code:200,message:"success",data:ap});p.mock("/api/posts?id=38800920","get",{code:200,message:"success",data:lp});p.mock("/api/posts?id=38850737","get",{code:200,message:"success",data:ip});p.mock("/api/posts?id=38943553","get",{code:200,message:"success",data:sp});const u=E(V);u.use(h);u.use(D);u.mount("#app");
